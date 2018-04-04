@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7312E86B-C6AC-4E6E-BF9D-086BA73F8B65}" SchemaVersion="85">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{7312E86B-C6AC-4E6E-BF9D-086BA73F8B65}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{040FA3AF-147E-4030-935B-8B87F31FBB46}">
+					<ObjectInclusionList>
+						<ObjectRef Name="ResumeAll" ID="{64FE7E2F-1FA6-42DD-B117-7FD0A2A07ACF}" WorkUnitID="{3F7F9352-BACD-4CEC-BDA5-9D283918BCCD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PauseAll" ID="{71F38F67-E417-4E3B-9D18-557BDA7BA8AF}" WorkUnitID="{3F7F9352-BACD-4CEC-BDA5-9D283918BCCD}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="VerticalSlice" ID="{031BE363-E5F6-4B41-A75C-8C0FAE79B893}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Enemy2_Hurt" ID="{9DCC8B49-B569-4162-80FD-5D2E233AD970}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="DaenerysHurt_01" ID="{E04C578F-855C-416D-B88B-6F871A723A0F}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="StartPuzzleCountdown" ID="{96524799-FDA5-417A-88E0-28D6E632B345}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayTorch" ID="{7C720C04-3FFE-41AB-8774-A9F28051D47D}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Enemy3_Hurt" ID="{C3DF1D37-82CB-44E3-89B7-264559BB28DF}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="TheonDead" ID="{BFCBEBE7-6493-4510-92AC-0353AA015830}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BehindMe" ID="{144E7A49-83AD-4515-A840-0BD06CE4CA62}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="CrossbowShot" ID="{290BFB2B-5B63-45A6-B118-7CD58ADEDC47}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Enemy3_Dead" ID="{0AA41F76-4574-46E1-BB33-E8E4AEC8E737}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Enemy1_Dead" ID="{809D5F70-6D4C-46F5-BB27-A4530E8854F9}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Enemy2_Dead" ID="{B56ED7DB-CB5E-471B-8062-F4637D9FF833}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="MetalClash" ID="{659F6B9D-D2F5-47FF-AF34-166EEDDF0843}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="JaimeHurt" ID="{625EDC0A-16DC-4813-8D7F-264B916EF97D}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BarrelSinking" ID="{F899BD9B-34AA-4989-BA86-BC7AB4B9C2AA}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Dracarys" ID="{BFED5FC5-6E77-49E2-A60E-DEE7068FE66F}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Player_01" ID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="JaimeDead" ID="{DA119880-B0A5-4A32-8A2B-78A9C3F01217}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Chain" ID="{B1104E6A-3125-4A36-B3CB-63006A16538F}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="RopeCut" ID="{EAE135E2-E8C3-4AE9-B2F5-C8C47C2C4B35}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Lever" ID="{C03ADCB8-9F9F-4AF0-B6B6-8B63E76EDE3A}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SwordHit" ID="{8557E206-243C-4B21-8493-FEC7B9168A4A}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Enemy1_Hurt" ID="{F0E873EC-D845-4B53-9DD9-44EB2FB22E43}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SwordSlash" ID="{2D496D9F-80F3-4BA1-9D31-C3D063B60F41}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Footsteps" ID="{F87F9A9D-024F-4BED-B056-096003CD2DCA}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="WaterSplash" ID="{36048AD5-6614-4D9A-AA63-5A2ECAF26D84}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="CrossbowRecharge" ID="{95D3D13A-5303-4DF4-849C-81B793782A47}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayMusic" ID="{4BA87777-B333-4E0D-8CC7-3AE2C5EB49B2}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="TheonHurt" ID="{6D41D5F8-2E6C-4EF0-B78B-29BF14E97710}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="DaenerysDead" ID="{E6034C71-697A-4FC9-9249-F23618797222}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

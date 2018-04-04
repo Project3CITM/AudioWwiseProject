@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E5E0B1AA-EB34-4CD2-BBE7-4AAC0F8751FB}" SchemaVersion="80">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{E5E0B1AA-EB34-4CD2-BBE7-4AAC0F8751FB}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="PuzzleCountDownState" ID="{FC0A8E45-662B-4C33-97C0-1C15443FA341}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{1B7747F9-1BF3-46BD-8E75-E72429B4C6B3}"/>
+						<State Name="State1" ID="{AB6FF629-82B5-487D-AD06-D8AE497F36DB}"/>
+						<State Name="State2" ID="{8AE850F6-E213-4607-8299-30BBB13A4A35}"/>
+						<State Name="State3" ID="{3651A2D5-CA66-41CD-8322-82A7CDCB4D1B}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Player_01" ID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Characters" ID="{F62A69DF-899F-488F-BAEE-C8ABD16A5A4D}" ShortID="85133534">
+					<ChildrenList>
+						<Folder Name="Jaime" ID="{9536C951-6AC6-45F6-AD80-8AE41F4263C1}" ShortID="108414010">
+							<ChildrenList>
+								<Event Name="BehindMe" ID="{144E7A49-83AD-4515-A840-0BD06CE4CA62}">
+									<ChildrenList>
+										<Action Name="" ID="{F92BB0BA-2D9A-4713-9368-A12196DD5DEE}" ShortID="697935626">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Behind_Me" ID="{BF57E317-3FF2-4196-87B8-13F2960F2FBD}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="JaimeDead" ID="{DA119880-B0A5-4A32-8A2B-78A9C3F01217}">
+									<ChildrenList>
+										<Action Name="" ID="{14047FC9-9646-43E4-B1EC-9612A5E1367A}" ShortID="631254904">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Jaime_Dead" ID="{F36807A0-45BA-4409-A157-C876E1A872DF}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="JaimeHurt" ID="{625EDC0A-16DC-4813-8D7F-264B916EF97D}">
+									<ChildrenList>
+										<Action Name="" ID="{656EC929-A690-4D9D-95B6-CA4F1D573718}" ShortID="952343449">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Jaime_Hurt" ID="{D9F2539E-F899-428B-AFFE-1E66C62513F4}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="JaimeImpact" ID="{2BF8A197-9846-46F2-8681-44C0CD9939F5}">
+									<ChildrenList>
+										<Action Name="" ID="{57BBE0C3-04F9-421D-9857-49C11178B91C}" ShortID="1072939370">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Jaime_SwordSwing_plusFleshImpact" ID="{06BC30B4-81F9-4897-8691-C8910FCF28EF}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="JaimeBlock" ID="{066A5801-5F2B-468F-9E69-C0021AFA3909}">
+									<ChildrenList>
+										<Action Name="" ID="{DE3248D1-9356-485F-9AAE-22E1E70C0264}" ShortID="893878164">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Jaime_Handblock" ID="{11201AE7-2C89-455D-94F2-894962A06418}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="JaimeFailImpact" ID="{D27AFA68-0AB8-4459-BBDD-23CC32D7E0C7}">
+									<ChildrenList>
+										<Action Name="" ID="{D06D1B95-E7B1-4FFE-91CA-1EAD446256C5}" ShortID="428243211">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Jaime_SwordSwing" ID="{77D24D05-B52B-4516-96A9-07E826AB718D}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="JaimeWarCry" ID="{B7046355-D64D-4563-BFE7-896A3D2B4F69}">
+									<ChildrenList>
+										<Action Name="" ID="{045FFB48-A089-43E3-A75B-295EDAF77409}" ShortID="34467716">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Jaime_BattleCry" ID="{804B660A-B4AB-44E3-BF2D-82FD77837593}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Theon" ID="{A23E7C8E-7FDF-4F4E-A973-6A6029ED3B95}" ShortID="32809509">
+							<ChildrenList>
+								<Event Name="CrossbowRecharge" ID="{95D3D13A-5303-4DF4-849C-81B793782A47}">
+									<ChildrenList>
+										<Action Name="" ID="{1026A091-3DCF-430B-81B5-7769B16384C8}" ShortID="337626626">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Theon_CrossbowReload" ID="{E26D418E-E3E6-4EF4-A0EF-32F704AFA86D}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="CrossbowShot" ID="{290BFB2B-5B63-45A6-B118-7CD58ADEDC47}">
+									<ChildrenList>
+										<Action Name="" ID="{B07E8930-3E72-486A-9A5A-8FD0F32BA8A8}" ShortID="398088096">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Theon_NormalShot" ID="{3A9B7E9B-F59D-4A89-9631-8A37A15B2C3C}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="TheonDead" ID="{BFCBEBE7-6493-4510-92AC-0353AA015830}">
+									<ChildrenList>
+										<Action Name="" ID="{BBE5F778-5B33-4A71-96AE-369181B6DAC9}" ShortID="392686290">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Theon_Dead" ID="{2A17D3A2-5CC1-4E7C-9B6E-A9126CF96EC3}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="TheonHurt" ID="{6D41D5F8-2E6C-4EF0-B78B-29BF14E97710}">
+									<ChildrenList>
+										<Action Name="" ID="{DBA00B9B-358B-4F3A-9F85-775F36B690C4}" ShortID="247038038">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Theon_Hurt" ID="{4E54C145-70FC-424D-86B7-6938D9E8BBE5}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="TheonTripleShot" ID="{EEDE842F-04FB-45BD-BFC2-E3DFBDD04535}">
+									<ChildrenList>
+										<Action Name="" ID="{6475DAB9-CC40-4020-9675-50CF55655B14}" ShortID="70958727">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Theon_TripleShot" ID="{93EE8BB6-6093-49D3-9EF1-3799C4550420}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="TheonMele" ID="{9AD64730-E094-4496-B15B-DECBBF06E5C8}">
+									<ChildrenList>
+										<Action Name="" ID="{94273689-3475-4BAE-82D4-DBB7FCAAE60C}" ShortID="697611815">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Theon_Melee" ID="{ADE0715A-A2AD-4D4A-B7BC-C2638AEA6814}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Daenerys" ID="{D159EFC1-E1E1-4893-B53B-0063A48AAE26}" ShortID="349993225">
+							<ChildrenList>
+								<Event Name="DaenerysDead" ID="{E6034C71-697A-4FC9-9249-F23618797222}">
+									<ChildrenList>
+										<Action Name="" ID="{3EE27C20-8CAF-4832-B129-23EED868C613}" ShortID="767466526">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Daenerys_Dead" ID="{B6759742-49F4-407F-838E-BFAFA878ACFA}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DaenerysHurt_01" ID="{E04C578F-855C-416D-B88B-6F871A723A0F}">
+									<ChildrenList>
+										<Action Name="" ID="{E4B0B6A5-E489-4490-8D72-BDE5F5140150}" ShortID="1048127511">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Daenerys_Hurt" ID="{7E3A745F-770A-4F3C-8CD3-3D57D045B894}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Dracarys" ID="{BFED5FC5-6E77-49E2-A60E-DEE7068FE66F}">
+									<ChildrenList>
+										<Action Name="" ID="{2C722655-CF4A-49A9-8C15-4ECABCF521AF}" ShortID="50617616">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Daennerys_Dracarys" ID="{99DCD723-9F89-4764-BE3C-767F37D29620}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{499FEF5F-AB43-4A28-903F-3CFEAA882089}" ShortID="290226409">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+												<Property Name="Delay" Type="Real64" Value="0.06"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Daennerys_DracarysReberv" ID="{5AFADCC5-408C-4D3A-85A4-3399FB5D54AE}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DaenerysDragonRoar" ID="{F0C87ADF-5209-4DE8-99A4-441AB9646F1D}">
+									<ChildrenList>
+										<Action Name="" ID="{B64938FE-21C4-42A6-A3AF-F62B8557ECA6}" ShortID="393357170">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Daennerys_DragonRoar" ID="{0FB77455-5ED2-473E-B2BB-141403872C33}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DaenerysFire" ID="{12C961EC-2D7B-4408-9AFB-53DE2D0FCC9D}">
+									<ChildrenList>
+										<Action Name="" ID="{A9817326-B3AA-48CD-A38C-271A9FDCE33C}" ShortID="357643679">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Daennerys_FlameCrepitarLoop" ID="{6B2DE8CF-8989-4293-A0D7-DFC0025C9961}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{D9421499-855A-4FA3-9948-60A7110A7CF0}" ShortID="1002696679">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Daennerys_FlameLoop" ID="{751E1B62-E7A3-4788-ABF5-03328B2D707F}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DaenerysWalk" ID="{97BF7EF9-D4E5-465D-BEEC-E4C81CA12BD0}">
+									<ChildrenList>
+										<Action Name="" ID="{64306184-DBC7-403A-9C30-5B79B1B7BCCA}" ShortID="695888040">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Daennerys_Footsteps" ID="{A5074D1C-E1C6-4B8C-9C21-4239EEAE69CD}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
