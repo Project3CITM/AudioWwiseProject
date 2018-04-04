@@ -173,6 +173,146 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Enemy_Chase" ID="{4038694A-E919-40AE-97B4-01D295B2D6F6}">
+							<ChildrenList>
+								<Action Name="" ID="{0C4266DD-04A1-479D-8A3E-C06E232C5242}" ShortID="763111499">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_Chase" ID="{8DEA5408-2615-43C3-BD91-0F8CCAC5C0D7}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_Patrol" ID="{FA7B65F4-92C6-4A70-8AE0-DA00D6C6714F}">
+							<ChildrenList>
+								<Action Name="" ID="{0EB72670-FFD5-4C09-A071-DF7E4E49299F}" ShortID="15171899">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_Patrol" ID="{42A49FE3-AE91-46FF-8833-AD0E6A14FB8A}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy3_ShieldBlock" ID="{B69EE99C-E3AF-4481-83E6-23EE7CFB6F58}">
+							<ChildrenList>
+								<Action Name="" ID="{842A4C0F-4E77-45F7-9C98-49F936CAAB11}" ShortID="818327618">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_ShieldBlock" ID="{ED616340-51CB-4AC1-A3DC-DFD118893BF6}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy3_ShieldHit" ID="{76E236B7-B36E-4796-940D-10DB0AB55D6C}">
+							<ChildrenList>
+								<Action Name="" ID="{C6A1F083-6448-4A78-AF29-89B92834FA51}" ShortID="328881818">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_ShieldHit" ID="{E4C9A0DA-0E1D-4303-87E4-84C756303A42}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy3_Slash" ID="{22EDE01E-2402-4CC4-9585-667C9FAE0573}">
+							<ChildrenList>
+								<Action Name="" ID="{40958958-E82C-49C4-AC41-09AD5AD4A647}" ShortID="931902508">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_ShortSwordSlash" ID="{0DB0147A-6607-4BAE-978F-52E6C760A30E}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy1_Slash" ID="{2DF567E5-63BD-4CB6-8D0F-CFA1B0F95829}">
+							<ChildrenList>
+								<Action Name="" ID="{F8485DE6-C8D9-4C0B-89E8-989B62C16C73}" ShortID="23237159">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_Slash" ID="{6E8E56F6-0CF1-429E-83F3-F3F7AF26F4C3}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy2_Slash" ID="{A666FD97-72F8-46A7-85B7-5C894B722795}">
+							<ChildrenList>
+								<Action Name="" ID="{EA4062B0-8DFA-40CD-BDD8-2C28F471B080}" ShortID="259215251">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_SpearSwing" ID="{9E0E2662-E21D-49AF-B013-64D217C302F8}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy1_SwordClash" ID="{390A640B-1CAA-4F22-BC50-F39128C97A6D}">
+							<ChildrenList>
+								<Action Name="" ID="{7018D3D4-4922-470B-95F1-B8BED31E72CE}" ShortID="188127297">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_SwordClash" ID="{84FA1EF9-FDB9-43AD-883A-31E30F0DB048}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_SwordDraw" ID="{7A2CAA9D-3BA1-4963-A594-56FC22281C2D}">
+							<ChildrenList>
+								<Action Name="" ID="{68E72473-04DD-4D46-B7F7-8DF0786065C1}" ShortID="552509718">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_SwordDraw" ID="{E2B59F41-1B5E-4D87-B9C7-7F6EC996A275}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_SwordDrop" ID="{C379C566-8B7B-45D6-9F9E-D5FF462A7412}">
+							<ChildrenList>
+								<Action Name="" ID="{10BACC9E-1F4E-4403-8907-4EF8E25D34BA}" ShortID="704574653">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_SwordDrop" ID="{0E0590FB-E281-495B-B8EA-1821228939E9}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Puzzle" ID="{F7E31591-DF8C-4DA8-8B5A-46001BFFCF36}" ShortID="532137303">
