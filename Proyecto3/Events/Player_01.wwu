@@ -51,13 +51,13 @@
 								</Event>
 								<Event Name="JaimeImpact" ID="{2BF8A197-9846-46F2-8681-44C0CD9939F5}">
 									<ChildrenList>
-										<Action Name="" ID="{57BBE0C3-04F9-421D-9857-49C11178B91C}" ShortID="1072939370">
+										<Action Name="" ID="{B7B8E9EB-940A-4810-971D-9415015BB8F1}" ShortID="268764886">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Jaime_SwordSwing_plusFleshImpact" ID="{06BC30B4-81F9-4897-8691-C8910FCF28EF}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+													<ObjectRef Name="Jaime_SwordFleshImpact" ID="{5813CB42-EF5A-4CE3-81C6-502541AB70EA}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -211,7 +211,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="DaenerysHurt_01" ID="{E04C578F-855C-416D-B88B-6F871A723A0F}">
+								<Event Name="DaenerysHurt" ID="{E04C578F-855C-416D-B88B-6F871A723A0F}">
 									<ChildrenList>
 										<Action Name="" ID="{E4B0B6A5-E489-4490-8D72-BDE5F5140150}" ShortID="1048127511">
 											<PropertyList>
