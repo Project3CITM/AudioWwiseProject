@@ -1021,6 +1021,63 @@
 										<ActiveSource Name="Theon_TripleShot" ID="{21643AF7-C17C-41B5-B436-98D2CFDA69F0}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="Theon_MeleeHit" ID="{1EDF13A0-FA6A-4CAA-A31C-CBA990C0F221}" ShortID="785873446">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Theon_MeleeHit" ID="{54CF0B8A-85CB-4F8E-BD93-AC1EFD0C0320}" ShortID="74496819">
+											<Language>SFX</Language>
+											<AudioFile>Theon_MeleeHit.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Theon_MeleeHit" ID="{54CF0B8A-85CB-4F8E-BD93-AC1EFD0C0320}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Theon_MeleeShout" ID="{546499EF-5D64-4D56-9529-65299203E49A}" ShortID="58479543">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Theon_MeleeShout" ID="{E2D2E420-A80A-4153-8E7E-701483DF6FEC}" ShortID="89926475">
+											<Language>SFX</Language>
+											<AudioFile>Theon_MeleeShout.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Theon_MeleeShout" ID="{E2D2E420-A80A-4153-8E7E-701483DF6FEC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Theon_Rope" ID="{76ABF7BE-EFD7-483A-944B-242F1EDC1C21}" ShortID="129680621">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Theon_Rope" ID="{BD1D712D-4947-41B5-9FB9-D3D72A0912EA}" ShortID="1011102677">
+											<Language>SFX</Language>
+											<AudioFile>Theon_Rope.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Theon_Rope" ID="{BD1D712D-4947-41B5-9FB9-D3D72A0912EA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
