@@ -26,6 +26,7 @@
 				<Property Name="Event Action List\{E6034C71-697A-4FC9-9249-F23618797222}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{EEDE842F-04FB-45BD-BFC2-E3DFBDD04535}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F0C87ADF-5209-4DE8-99A4-441AB9646F1D}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F899BD9B-34AA-4989-BA86-BC7AB4B9C2AA}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -105,7 +106,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_8_0" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_8_1" Type="string" Value=""/>
 				<Property Name="RTPC\GameParameterSimValue\{06127096-D603-4967-BF27-3567917DC354}" Type="Real64" Value="50"/>
-				<Property Name="SoundBank Manager\x64_Expand States" Type="string" Value=""/>
+				<Property Name="SoundBank Manager\x64_Expand States" Type="string" Value="a+gSc6zGbk6/nQhrpz+LZQ=="/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPathUserOverride" Type="bool" Value="True"/>
 				<Property Name="SoundBankPaths" Type="string">

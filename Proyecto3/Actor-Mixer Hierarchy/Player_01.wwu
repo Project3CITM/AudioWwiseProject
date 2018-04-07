@@ -783,6 +783,9 @@
 										<AudioFileSource Name="Jaime_Hurt" ID="{7EBD6882-A460-4B6A-AB8B-C081D4578737}" ShortID="996307276">
 											<Language>SFX</Language>
 											<AudioFile>Jaime_Hurt.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="153064777"/>
+											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
