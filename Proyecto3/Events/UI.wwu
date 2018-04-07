@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C264F335-8C57-4526-A85F-F2797EC3A98E}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="UI" ID="{C264F335-8C57-4526-A85F-F2797EC3A98E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="PlayUIMusic" ID="{3E9C4B32-B02B-496A-BF6A-18A0F8923A39}">
+					<ChildrenList>
+						<Action Name="" ID="{2C46C738-9946-4CC6-9ACF-C185E48F54E2}" ShortID="149392353">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{ECB79A39-42DE-43DD-B618-32ADC0F66947}" ShortID="724450464">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IntroMusic" ID="{909D2441-242C-419C-B955-C8EDD71AD3ED}" WorkUnitID="{E9F376F5-69D7-4D29-81FB-07C122D11953}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Hover" ID="{F373B7BE-EF57-4940-BAE2-641D4B8C2B67}">
+					<ChildrenList>
+						<Action Name="" ID="{4C5D520A-B4CE-4E5F-9324-83C3B437A46B}" ShortID="591382045">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HoverFX" ID="{91B05C77-08EF-41A8-83D1-46875E1843F0}" WorkUnitID="{C13D1751-A00A-485A-894A-979146335296}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Push" ID="{D96B38F6-90E2-4120-9130-43D5D1DF68DE}">
+					<ChildrenList>
+						<Action Name="" ID="{84654AF0-22F4-42AB-8AFA-D4BB5BA5AAB9}" ShortID="728661532">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PushFX" ID="{E4A2392E-D0B2-413C-B369-35DB0D95FFF7}" WorkUnitID="{C13D1751-A00A-485A-894A-979146335296}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
