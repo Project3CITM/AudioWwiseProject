@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="85">
 	<ValidationCacheItem File="E:\Repos\AudioWwiseProject\Proyecto3\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1523106798" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Repos\AudioWwiseProject\Proyecto3\Actor-Mixer Hierarchy\Player_01.wwu" DateLow="1523110899" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Repos\AudioWwiseProject\Proyecto3\Actor-Mixer Hierarchy\Player_01.wwu" DateLow="1523111874" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Repos\AudioWwiseProject\Proyecto3\Actor-Mixer Hierarchy\UI.wwu" DateLow="1523106798" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Repos\AudioWwiseProject\Proyecto3\Attenuations\Default Work Unit.wwu" DateLow="1522866695" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Repos\AudioWwiseProject\Proyecto3\Audio Devices\Default Work Unit.wwu" DateLow="1522866695" DateHigh="0"/>
@@ -30,11 +30,11 @@
 	<ValidationCacheItem File="E:\Repos\AudioWwiseProject\Proyecto3\Mixing Sessions\Default Work Unit.wwu" DateLow="1522866696" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Repos\AudioWwiseProject\Proyecto3\Modulators\Default Work Unit.wwu" DateLow="1522866696" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Repos\AudioWwiseProject\Proyecto3\Presets\Default Work Unit.wwu" DateLow="1522866702" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Repos\AudioWwiseProject\Proyecto3\Proyecto3.anara.wsettings" DateLow="1523110908" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Repos\AudioWwiseProject\Proyecto3\Proyecto3.anara.wsettings" DateLow="1523111877" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Repos\AudioWwiseProject\Proyecto3\Proyecto3.wproj" DateLow="1522866702" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Repos\AudioWwiseProject\Proyecto3\Queries\Default Work Unit.wwu" DateLow="1522866702" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Repos\AudioWwiseProject\Proyecto3\Queries\Factory Queries.wwu" DateLow="1522866702" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Repos\AudioWwiseProject\Proyecto3\SoundBanks\Default Work Unit.wwu" DateLow="1523106800" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Repos\AudioWwiseProject\Proyecto3\SoundBanks\Default Work Unit.wwu" DateLow="1523111874" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Repos\AudioWwiseProject\Proyecto3\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1522866702" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Repos\AudioWwiseProject\Proyecto3\States\Default Work Unit.wwu" DateLow="1522866702" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Repos\AudioWwiseProject\Proyecto3\Switches\Default Work Unit.wwu" DateLow="1522866702" DateHigh="0"/>

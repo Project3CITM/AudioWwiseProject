@@ -7,12 +7,12 @@
 				<File Name="Main" Hash="2784445020" Timestamp="1523099672"/>
 				<File Name="Menu" Hash="3627407460" Timestamp="1523100238"/>
 				<File Name="Scene1" Hash="1456947451" Timestamp="131634260592321274"/>
-				<File Name="VerticalSlice" Hash="575629153" Timestamp="1523111005"/>
+				<File Name="VerticalSlice" Hash="3633715045" Timestamp="1523113857"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="4130568498" Timestamp="1523111005"/>
+				<File Name="" Hash="4130568498" Timestamp="1523113857"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
