@@ -588,42 +588,6 @@
 												<ActiveSource Name="E2_Dead_1" ID="{C1FF041C-AB2B-4F74-9878-D69B98C33847}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="E2_Dead_2" ID="{D3C37152-144A-4439-B6D1-CCB6D7700576}" ShortID="552690836">
-											<PropertyList>
-												<Property Name="Pitch" Type="int32">
-													<ValueList>
-														<Value>-300</Value>
-													</ValueList>
-												</Property>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>4</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="WhatsApp_Ptt_2018-03-09_at_18_44_39" ID="{01B49F24-9063-417B-8A3E-2ADF2783C35C}" ShortID="563390078">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.125824094604583"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.951544715447154"/>
-														<Property Name="TrimEnd" Type="Real64" Value="2.35920177383592"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Enemy\Enemy_2\WhatsApp_Ptt_2018-03-09_at_18_44_39.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="WhatsApp_Ptt_2018-03-09_at_18_44_39" ID="{01B49F24-9063-417B-8A3E-2ADF2783C35C}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Enemy2_Hurt" ID="{1D2DD4C2-AA3A-4C91-80B7-24E862C73EFC}" ShortID="666764762">
