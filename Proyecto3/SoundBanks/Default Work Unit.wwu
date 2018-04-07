@@ -14,7 +14,6 @@
 				<SoundBank Name="VerticalSlice" ID="{031BE363-E5F6-4B41-A75C-8C0FAE79B893}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Enemy_Chase" ID="{4038694A-E919-40AE-97B4-01D295B2D6F6}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Push" ID="{D96B38F6-90E2-4120-9130-43D5D1DF68DE}" WorkUnitID="{C264F335-8C57-4526-A85F-F2797EC3A98E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Enemy2_Hurt" ID="{9DCC8B49-B569-4162-80FD-5D2E233AD970}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="DaenerysHurt" ID="{E04C578F-855C-416D-B88B-6F871A723A0F}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="StartPuzzleCountdown" ID="{96524799-FDA5-417A-88E0-28D6E632B345}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
@@ -41,11 +40,10 @@
 						<ObjectRef Name="Enemy3_ShieldHit" ID="{76E236B7-B36E-4796-940D-10DB0AB55D6C}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="MetalClash" ID="{659F6B9D-D2F5-47FF-AF34-166EEDDF0843}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="JaimeHurt" ID="{625EDC0A-16DC-4813-8D7F-264B916EF97D}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Hover" ID="{F373B7BE-EF57-4940-BAE2-641D4B8C2B67}" WorkUnitID="{C264F335-8C57-4526-A85F-F2797EC3A98E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Enemy_SwordDraw" ID="{7A2CAA9D-3BA1-4963-A594-56FC22281C2D}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="PlayUIMusic" ID="{3E9C4B32-B02B-496A-BF6A-18A0F8923A39}" WorkUnitID="{C264F335-8C57-4526-A85F-F2797EC3A98E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="BarrelSinking" ID="{F899BD9B-34AA-4989-BA86-BC7AB4B9C2AA}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Dracarys" ID="{BFED5FC5-6E77-49E2-A60E-DEE7068FE66F}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Enemy_Flesh_Hit" ID="{3D8171DE-A5EC-4A18-ABA4-18FCC70791CB}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="JaimeDead" ID="{DA119880-B0A5-4A32-8A2B-78A9C3F01217}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Chain" ID="{B1104E6A-3125-4A36-B3CB-63006A16538F}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Enemy_Patrol" ID="{FA7B65F4-92C6-4A70-8AE0-DA00D6C6714F}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>

@@ -1009,6 +1009,31 @@
 								<ActiveSource Name="Enemy_SwordDrop" ID="{AF677C94-869E-4331-902B-F75E411638FB}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Enemy_Flesh_Hit" ID="{53B09DB5-CEB2-4C4C-8F06-18F79272326E}" ShortID="837972992">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DistanceAttenuation" ID="{1389B177-B29D-477A-B140-162C3F8BC908}" WorkUnitID="{F48D92E3-3623-4302-A981-FFC426439529}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Enemy_Hit" ID="{6FE68E0E-5ABE-45ED-8D85-07BC19940CD2}" ShortID="274806199">
+									<Language>SFX</Language>
+									<AudioFile>Enemy_Hit.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Enemy_Hit" ID="{6FE68E0E-5ABE-45ED-8D85-07BC19940CD2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Sound Name="Torch" ID="{2DFF1F15-8996-4F0C-9E26-CC540ED35837}" ShortID="81623821">

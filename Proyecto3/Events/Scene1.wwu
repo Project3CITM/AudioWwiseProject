@@ -319,6 +319,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Enemy_Flesh_Hit" ID="{3D8171DE-A5EC-4A18-ABA4-18FCC70791CB}">
+							<ChildrenList>
+								<Action Name="" ID="{537217F1-7138-4C3A-8BBF-DB35F8A4CC5E}" ShortID="741195537">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_Flesh_Hit" ID="{53B09DB5-CEB2-4C4C-8F06-18F79272326E}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Puzzle" ID="{F7E31591-DF8C-4DA8-8B5A-46001BFFCF36}" ShortID="532137303">
