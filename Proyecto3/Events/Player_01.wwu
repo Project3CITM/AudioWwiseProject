@@ -37,13 +37,13 @@
 								</Event>
 								<Event Name="JaimeHurt" ID="{625EDC0A-16DC-4813-8D7F-264B916EF97D}">
 									<ChildrenList>
-										<Action Name="" ID="{656EC929-A690-4D9D-95B6-CA4F1D573718}" ShortID="952343449">
+										<Action Name="" ID="{693D2080-3138-499D-868C-36F9922D77FC}" ShortID="66658418">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Jaime_Hurt" ID="{D9F2539E-F899-428B-AFFE-1E66C62513F4}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+													<ObjectRef Name="Jaime_Hurt" ID="{A413E8AA-56AA-4423-8318-66D9C90FB2C6}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -153,13 +153,13 @@
 								</Event>
 								<Event Name="TheonHurt" ID="{6D41D5F8-2E6C-4EF0-B78B-29BF14E97710}">
 									<ChildrenList>
-										<Action Name="" ID="{DBA00B9B-358B-4F3A-9F85-775F36B690C4}" ShortID="247038038">
+										<Action Name="" ID="{EC2470D5-1B8C-41F3-B79A-39FA3F350D9D}" ShortID="782666926">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Theon_Hurt" ID="{4E54C145-70FC-424D-86B7-6938D9E8BBE5}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+													<ObjectRef Name="Theon_Hurt" ID="{87CDF8B0-B708-4657-9165-2240047EBA1C}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -213,13 +213,13 @@
 								</Event>
 								<Event Name="DaenerysHurt" ID="{E04C578F-855C-416D-B88B-6F871A723A0F}">
 									<ChildrenList>
-										<Action Name="" ID="{E4B0B6A5-E489-4490-8D72-BDE5F5140150}" ShortID="1048127511">
+										<Action Name="" ID="{715EE4BB-8716-4FED-9E27-D1AA23AC90BF}" ShortID="728355239">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Daenerys_Hurt" ID="{7E3A745F-770A-4F3C-8CD3-3D57D045B894}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+													<ObjectRef Name="Daennerys_Hurt" ID="{44B80E1C-CF32-42CE-96D9-17430FC63A2E}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -297,6 +297,20 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Daennerys_Footsteps" ID="{A5074D1C-E1C6-4B8C-9C21-4239EEAE69CD}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DaenerysFireballImpact" ID="{CB27F479-7AD9-4FA7-8F8B-AF01448339F0}">
+									<ChildrenList>
+										<Action Name="" ID="{7CE3B155-1C5F-4727-A3FD-089D3282ED38}" ShortID="193174436">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Fireball_Impact" ID="{56A9FD16-A88E-40CB-AACC-8C8CE7A9DD40}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

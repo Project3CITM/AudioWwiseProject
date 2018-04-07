@@ -7,7 +7,7 @@
 					<ChildrenList>
 						<Folder Name="Daenerys" ID="{692DF719-A9D9-4C0C-82E9-60DFE425E847}" ShortID="80845081">
 							<ChildrenList>
-								<RandomSequenceContainer Name="Daenerys_Hurt" ID="{7E3A745F-770A-4F3C-8CD3-3D57D045B894}" ShortID="301784636">
+								<RandomSequenceContainer Name="Daenerys_Hurt_deprecated" ID="{7E3A745F-770A-4F3C-8CD3-3D57D045B894}" ShortID="301784636">
 									<PropertyList>
 										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
 										<Property Name="UserAuxSendVolume0" Type="Real64">
@@ -400,6 +400,48 @@
 										<ActiveSource Name="Daennerys_Footsteps" ID="{88D8B146-1AB7-4229-8FCF-DC743464F43C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="Fireball_Impact" ID="{56A9FD16-A88E-40CB-AACC-8C8CE7A9DD40}" ShortID="363460026">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fireball_Impact" ID="{9B0535BC-331E-4B58-B9C8-F4EC0EC36071}" ShortID="384029104">
+											<Language>SFX</Language>
+											<AudioFile>Fireball_Impact.wav</AudioFile>
+										</AudioFileSource>
+										<AudioFileSource Name="Jaime_Hurt" ID="{6856E63C-8D12-4087-AACA-8C9878196957}" ShortID="153064777">
+											<Language>SFX</Language>
+											<AudioFile>Jaime_Hurt.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fireball_Impact" ID="{9B0535BC-331E-4B58-B9C8-F4EC0EC36071}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Daennerys_Hurt" ID="{44B80E1C-CF32-42CE-96D9-17430FC63A2E}" ShortID="603003788">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Daennerys_Hurt" ID="{CA64F83D-7623-4968-9BC7-64EAEBA6D8FC}" ShortID="114820679">
+											<Language>SFX</Language>
+											<AudioFile>Daennerys_Hurt.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Daennerys_Hurt" ID="{CA64F83D-7623-4968-9BC7-64EAEBA6D8FC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Jaime" ID="{F23E9475-5FB5-4CF8-B09E-A4FDE0C72EC2}" ShortID="1068910861">
@@ -438,7 +480,7 @@
 										<ActiveSource Name="Behind Me_3" ID="{A8EBBD48-58A2-491C-9178-497ABEAEE5F8}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<RandomSequenceContainer Name="Jaime_Hurt" ID="{D9F2539E-F899-428B-AFFE-1E66C62513F4}" ShortID="190717601">
+								<RandomSequenceContainer Name="Jaime_Hurt_deprecated" ID="{D9F2539E-F899-428B-AFFE-1E66C62513F4}" ShortID="190717601">
 									<PropertyList>
 										<Property Name="Pitch" Type="int32">
 											<ValueList>
@@ -728,11 +770,30 @@
 										<ActiveSource Name="Jaime_SwordSwing_plusFleshImpact" ID="{7327A5F2-8177-414A-ADF3-1C487C0EA680}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="Jaime_Hurt" ID="{A413E8AA-56AA-4423-8318-66D9C90FB2C6}" ShortID="62867485">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Jaime_Hurt" ID="{7EBD6882-A460-4B6A-AB8B-C081D4578737}" ShortID="996307276">
+											<Language>SFX</Language>
+											<AudioFile>Jaime_Hurt.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Jaime_Hurt" ID="{7EBD6882-A460-4B6A-AB8B-C081D4578737}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Theon" ID="{562A9D23-2F84-442D-A9CD-FCBE7A84DDD7}" ShortID="108860501">
 							<ChildrenList>
-								<RandomSequenceContainer Name="Theon_Hurt" ID="{4E54C145-70FC-424D-86B7-6938D9E8BBE5}" ShortID="362156609">
+								<RandomSequenceContainer Name="Theon_Hurt_deprecated" ID="{4E54C145-70FC-424D-86B7-6938D9E8BBE5}" ShortID="362156609">
 									<PropertyList>
 										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
 									</PropertyList>
@@ -1076,6 +1137,25 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Theon_Rope" ID="{BD1D712D-4947-41B5-9FB9-D3D72A0912EA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Theon_Hurt" ID="{87CDF8B0-B708-4657-9165-2240047EBA1C}" ShortID="493192148">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Theon_Hurt" ID="{ABF8214F-F720-4060-AB25-6F4F25376D65}" ShortID="274350362">
+											<Language>SFX</Language>
+											<AudioFile>Theon_Hurt.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Theon_Hurt" ID="{ABF8214F-F720-4060-AB25-6F4F25376D65}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
