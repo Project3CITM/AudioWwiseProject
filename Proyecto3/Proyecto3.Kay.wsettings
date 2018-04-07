@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{A172DA25-61C7-422E-92DA-59F56F597917}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Originals\SFX\UI"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Originals\SFX"/>
 				<Property Name="Event Action List\{066A5801-5F2B-468F-9E69-C0021AFA3909}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{0AA41F76-4574-46E1-BB33-E8E4AEC8E737}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{1012B0E8-CE08-4B74-BCF9-B54C1E54D3B4}\x64_Expand States" Type="string" Value=""/>
@@ -15,6 +15,7 @@
 				<Property Name="Event Action List\{2D496D9F-80F3-4BA1-9D31-C3D063B60F41}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{36048AD5-6614-4D9A-AA63-5A2ECAF26D84}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{36632729-BB87-4663-A248-290D1EC808EB}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{3D8171DE-A5EC-4A18-ABA4-18FCC70791CB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{3E9C4B32-B02B-496A-BF6A-18A0F8923A39}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4BA87777-B333-4E0D-8CC7-3AE2C5EB49B2}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{625EDC0A-16DC-4813-8D7F-264B916EF97D}\x64_Expand States" Type="string" Value=""/>
@@ -70,7 +71,7 @@
 				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="Ej2QWbEsBUGsPho3kBcQvA=="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="r6MPBH4UMECTW4uH8x+7RmPjGwP25UFLp1yMD655uJNkYPFr5qJBT7y2sNHGtVFk"/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="r6MPBH4UMECTW4uH8x+7RmRg8WvmokFPvLaw0ca1UWRj4xsD9uVBS6dcjA+uebiT"/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="Interactive Music\x64_{39D05FB0-013C-4A80-8567-A26263C0CF6A} - SegmentEditorZoomInfo" Type="string" Value="AAAAAABAFEAAAAAAAADwPwAAAAAsVkdAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{513AB9A8-E053-4BBB-AAB6-EC5B9893044A} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAGGtAAAAAAAAA8D8AAAAAAAAAAAAAAAAAgE5A"/>
