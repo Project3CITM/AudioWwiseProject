@@ -798,6 +798,25 @@
 										<ActiveSource Name="Jaime_Hurt" ID="{7EBD6882-A460-4B6A-AB8B-C081D4578737}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="Sword_Impact_Stone" ID="{FEEAC907-D415-470B-A557-E8158A98273D}" ShortID="855596723">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sword_Impact_Stone" ID="{BD73059F-9888-4959-9B44-696F72A1BA8E}" ShortID="81794340">
+											<Language>SFX</Language>
+											<AudioFile>Sword_Impact_Stone.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sword_Impact_Stone" ID="{BD73059F-9888-4959-9B44-696F72A1BA8E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Theon" ID="{562A9D23-2F84-442D-A9CD-FCBE7A84DDD7}" ShortID="108860501">
@@ -1165,6 +1184,44 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Theon_Hurt" ID="{ABF8214F-F720-4060-AB25-6F4F25376D65}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Theon_Shot" ID="{08004F83-31A5-4D7C-AD49-9A5B5A12A648}" ShortID="791836515">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Theon_Shot" ID="{B44DECB4-54F0-4DE5-A873-69C9489A34E2}" ShortID="417101005">
+											<Language>SFX</Language>
+											<AudioFile>Theon_Shot.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Theon_Shot" ID="{B44DECB4-54F0-4DE5-A873-69C9489A34E2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Arrow_Impact_Wall" ID="{DF076979-7EC3-469D-B8B0-B5B9C17074B5}" ShortID="24869887">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Arrow_Impact_Wall" ID="{8C73F557-3CFE-4C6A-8BF0-D24D29623366}" ShortID="195426196">
+											<Language>SFX</Language>
+											<AudioFile>Arrow_Impact_Wall.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Arrow_Impact_Wall" ID="{8C73F557-3CFE-4C6A-8BF0-D24D29623366}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

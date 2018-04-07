@@ -105,6 +105,20 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="JaimeImpactStone" ID="{04A89689-884B-463A-AE10-9793A17DB47E}">
+									<ChildrenList>
+										<Action Name="" ID="{C5D72EDE-0232-44F2-9EC8-3AA680943087}" ShortID="653577330">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Sword_Impact_Stone" ID="{FEEAC907-D415-470B-A557-E8158A98273D}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Theon" ID="{A23E7C8E-7FDF-4F4E-A973-6A6029ED3B95}" ShortID="32809509">
@@ -125,13 +139,13 @@
 								</Event>
 								<Event Name="CrossbowShot" ID="{290BFB2B-5B63-45A6-B118-7CD58ADEDC47}">
 									<ChildrenList>
-										<Action Name="" ID="{B07E8930-3E72-486A-9A5A-8FD0F32BA8A8}" ShortID="398088096">
+										<Action Name="" ID="{3EDB53E1-D74A-47E6-833F-EA94E643231E}" ShortID="1041496550">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Theon_NormalShot" ID="{3A9B7E9B-F59D-4A89-9631-8A37A15B2C3C}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+													<ObjectRef Name="Theon_Shot" ID="{08004F83-31A5-4D7C-AD49-9A5B5A12A648}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -188,6 +202,62 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Theon_Melee" ID="{ADE0715A-A2AD-4D4A-B7BC-C2638AEA6814}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="TheonRope" ID="{83E416AC-EE63-4117-BA96-7FECF4D29F3E}">
+									<ChildrenList>
+										<Action Name="" ID="{44F05177-6D26-4DE9-95A4-D49F6FEA95D5}" ShortID="713976425">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Theon_Rope" ID="{76ABF7BE-EFD7-483A-944B-242F1EDC1C21}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="TheonMeleShout" ID="{5050CD6E-6560-4228-9E58-2B90233B8DC6}">
+									<ChildrenList>
+										<Action Name="" ID="{CB81963A-A6A2-4D28-940B-F9DAC2306BFA}" ShortID="60406036">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Theon_MeleeShout" ID="{546499EF-5D64-4D56-9529-65299203E49A}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="TheonMeleHit" ID="{99E83E37-9129-4D9D-AD2D-D6A70D6FBDE4}">
+									<ChildrenList>
+										<Action Name="" ID="{651E39E9-FD7B-406A-B66E-FF310F91C8E5}" ShortID="62610770">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Theon_MeleeHit" ID="{1EDF13A0-FA6A-4CAA-A31C-CBA990C0F221}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="TheonImpact" ID="{025078E9-25AB-46F4-ADD1-A622A0B7C187}">
+									<ChildrenList>
+										<Action Name="" ID="{9DC7F695-76DB-45BE-BEF3-936F3AC60702}" ShortID="729657972">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Arrow_Impact_Wall" ID="{DF076979-7EC3-469D-B8B0-B5B9C17074B5}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
