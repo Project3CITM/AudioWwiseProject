@@ -5,12 +5,6 @@
 			<ChildrenList>
 				<Event Name="PlayUIMusic" ID="{3E9C4B32-B02B-496A-BF6A-18A0F8923A39}">
 					<ChildrenList>
-						<Action Name="" ID="{2C46C738-9946-4CC6-9ACF-C185E48F54E2}" ShortID="149392353">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="3"/>
-							</PropertyList>
-							<ReferenceList/>
-						</Action>
 						<Action Name="" ID="{ECB79A39-42DE-43DD-B618-32ADC0F66947}" ShortID="724450464">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>

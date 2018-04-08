@@ -3,16 +3,16 @@
 	<Platform GUID="{59903D12-2CB1-4105-AC3E-1A37901710BC}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="3305766571" Timestamp="1523140944"/>
+				<File Name="Init" Hash="3305766571" Timestamp="1523178467"/>
 				<File Name="Main" Hash="2784445020" Timestamp="1523099672"/>
-				<File Name="Menu" Hash="758220647" Timestamp="1523118926"/>
+				<File Name="Menu" Hash="3976327104" Timestamp="1523178466"/>
 				<File Name="Scene1" Hash="1456947451" Timestamp="131634260592321274"/>
-				<File Name="VerticalSlice" Hash="2948887109" Timestamp="1523140944"/>
+				<File Name="VerticalSlice" Hash="716792888" Timestamp="1523178467"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="320725533" Timestamp="1523140944"/>
+				<File Name="" Hash="158115021" Timestamp="1523178467"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
