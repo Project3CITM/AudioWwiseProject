@@ -45,6 +45,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="PlayLoseMusic" ID="{1D29BA6B-9223-42E1-B9A5-230BAED26AB4}">
+					<ChildrenList>
+						<Action Name="" ID="{ABD98903-0A08-4F9D-9BD6-616BCAEB9E81}" ShortID="287249827">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LoseMusic" ID="{0393C9D7-6936-4C3F-A525-20267B8BDFBE}" WorkUnitID="{E9F376F5-69D7-4D29-81FB-07C122D11953}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

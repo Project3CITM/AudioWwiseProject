@@ -5,14 +5,14 @@
 			<Language ID="393239870">
 				<File Name="Init" Hash="3305766571" Timestamp="1523178467"/>
 				<File Name="Main" Hash="2784445020" Timestamp="1523099672"/>
-				<File Name="Menu" Hash="3976327104" Timestamp="1523178466"/>
+				<File Name="Menu" Hash="394643976" Timestamp="1523180621"/>
 				<File Name="Scene1" Hash="1456947451" Timestamp="131634260592321274"/>
 				<File Name="VerticalSlice" Hash="716792888" Timestamp="1523178467"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="158115021" Timestamp="1523178467"/>
+				<File Name="" Hash="2180149247" Timestamp="1523180621"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

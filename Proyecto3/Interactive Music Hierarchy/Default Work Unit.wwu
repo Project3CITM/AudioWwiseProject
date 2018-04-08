@@ -589,6 +589,102 @@
 						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="LoseMusic" ID="{0393C9D7-6936-4C3F-A525-20267B8BDFBE}" ShortID="693299155">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Defeat_Screen" ID="{39D2BB77-7A93-46B9-8A79-367587E6A163}" ShortID="1043619064">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="41689.977324263"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Defeat_Screen" ID="{0C6F6737-E719-4E91-8C72-09B5388DA9A2}" ShortID="507118917">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Defeat_Screen" ID="{6BD76DC8-5741-4AF9-8503-A0E44588A55C}" ShortID="375248599">
+											<Language>SFX</Language>
+											<AudioFile>Defeat_Screen.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{267197C2-E2E6-494C-8E20-C1CD1864340E}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{330806B0-C2B7-4593-A4B0-1C560AAAD998}">
+											<ClipList>
+												<MusicClip Name="Defeat_Screen" ID="{C84498A9-637F-411E-94A2-96DD30F674CF}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="41689.977324263"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Defeat_Screen" ID="{6BD76DC8-5741-4AF9-8503-A0E44588A55C}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{6463BCB6-C7D5-4176-A207-A8854F4F7471}"/>
+								<MusicCue Name="Exit Cue" ID="{3EC7A70A-0617-4F28-9706-E933400CD922}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="41689.977324263"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{6DA0B298-C383-4C73-A7AF-26A039D50593}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{3F73AEDD-113C-42DF-AE0A-68C7458A88A9}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{FCF4C492-735C-4F3C-B3FF-80881430CC1D}" ShortID="34430275">
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{67C642FB-3E24-40A0-9C75-90857710D4B1}" ShortID="126625999">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Defeat_Screen" ID="{39D2BB77-7A93-46B9-8A79-367587E6A163}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>
