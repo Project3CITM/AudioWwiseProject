@@ -163,7 +163,7 @@
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>9</Value>
+										<Value>12</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -257,7 +257,7 @@
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>6</Value>
+										<Value>4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -991,6 +991,7 @@
 						<Sound Name="Enemy_Flesh_Hit" ID="{53B09DB5-CEB2-4C4C-8F06-18F79272326E}" ShortID="837972992">
 							<PropertyList>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -1018,16 +1019,11 @@
 				<Sound Name="Torch" ID="{2DFF1F15-8996-4F0C-9E26-CC540ED35837}" ShortID="81623821">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="Pitch" Type="int32">
-							<ValueList>
-								<Value>-230</Value>
-							</ValueList>
-						</Property>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>6</Value>
+								<Value>4</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>

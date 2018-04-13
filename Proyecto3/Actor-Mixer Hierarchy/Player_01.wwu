@@ -737,12 +737,14 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Jaime_Dead" ID="{F36807A0-45BA-4409-A157-C876E1A872DF}" ShortID="242988145">
 									<PropertyList>
+										<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 										<Property Name="Pitch" Type="int32">
 											<ValueList>
 												<Value>-200</Value>
 											</ValueList>
 										</Property>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -801,7 +803,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Jaime_Dead_1" ID="{37FBD5AB-D027-4FD2-A0FD-555AF50A6702}" ShortID="3927629">
+										<Sound Name="Jaime_Dead_1" ID="{DBC5DF09-9E5B-4789-8554-F780CEE1565E}" ShortID="235885450">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
@@ -811,59 +813,13 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Jaime_Dead_1" ID="{544E56C5-53EA-4464-BDA5-5CADC2E2AD17}" ShortID="60949841">
-													<PropertyList>
-														<Property Name="OverrideConversion" Type="bool" Value="True"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
-																<Conversion Name="Default Conversion Settings (Custom)" ID="{691C2E5E-0DC0-40C5-95F5-F71CBAF0A9B7}">
-																	<PropertyList>
-																		<Property Name="Channels" Type="int32">
-																			<ValueList>
-																				<Value Platform="Windows">4</Value>
-																			</ValueList>
-																		</Property>
-																		<Property Name="LRMix" Type="Real64">
-																			<ValueList>
-																				<Value Platform="Windows">0</Value>
-																			</ValueList>
-																		</Property>
-																		<Property Name="MaxSampleRate" Type="int32">
-																			<ValueList>
-																				<Value Platform="Windows">0</Value>
-																			</ValueList>
-																		</Property>
-																		<Property Name="MinSampleRate" Type="int32">
-																			<ValueList>
-																				<Value Platform="Windows">0</Value>
-																			</ValueList>
-																		</Property>
-																		<Property Name="SampleRate" Type="int32">
-																			<ValueList>
-																				<Value Platform="Windows">0</Value>
-																			</ValueList>
-																		</Property>
-																	</PropertyList>
-																	<ConversionPluginInfoList>
-																		<ConversionPluginInfo Platform="Windows">
-																			<ConversionPlugin Name="" ID="{1C016E63-AE25-4132-851E-C2A797696CF9}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
-																		</ConversionPluginInfo>
-																	</ConversionPluginInfoList>
-																</Conversion>
-															</Custom>
-														</Reference>
-													</ReferenceList>
+												<AudioFileSource Name="Jaime_Dead_1" ID="{EBAC991A-A8AC-43DE-99B1-8ECE108C3D3A}" ShortID="802761961">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Jaime\Jaime_Dead_1.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="60949840"/>
-													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Jaime_Dead_1" ID="{544E56C5-53EA-4464-BDA5-5CADC2E2AD17}" Platform="Linked"/>
+												<ActiveSource Name="Jaime_Dead_1" ID="{EBAC991A-A8AC-43DE-99B1-8ECE108C3D3A}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>

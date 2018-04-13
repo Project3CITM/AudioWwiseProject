@@ -42,11 +42,6 @@
 					<ChildrenList>
 						<AuxBus Name="Corridor" ID="{9E50DD0F-A3FB-47D4-87B2-A115B5F896B4}">
 							<PropertyList>
-								<Property Name="BusVolume" Type="Real64">
-									<ValueList>
-										<Value>2</Value>
-									</ValueList>
-								</Property>
 								<Property Name="EnablePositioning" Type="bool" Value="True"/>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 							</PropertyList>
