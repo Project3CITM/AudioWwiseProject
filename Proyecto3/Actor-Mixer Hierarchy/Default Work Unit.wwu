@@ -20,9 +20,10 @@
 						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
 						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>1</Value>
+								<Value>3</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -32,9 +33,6 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
-						</Reference>
-						<Reference Name="UserAuxSend0">
-							<ObjectRef Name="Corridor" ID="{9E50DD0F-A3FB-47D4-87B2-A115B5F896B4}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -162,11 +160,7 @@
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
-								<Property Name="UserAuxSendVolume0" Type="Real64">
-									<ValueList>
-										<Value>12</Value>
-									</ValueList>
-								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>9</Value>
@@ -182,9 +176,6 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
-								</Reference>
-								<Reference Name="UserAuxSend0">
-									<ObjectRef Name="Corridor" ID="{9E50DD0F-A3FB-47D4-87B2-A115B5F896B4}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -263,11 +254,7 @@
 									</ValueList>
 								</Property>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
-								<Property Name="UserAuxSendVolume0" Type="Real64">
-									<ValueList>
-										<Value>2</Value>
-									</ValueList>
-								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>6</Value>
@@ -283,9 +270,6 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
-								</Reference>
-								<Reference Name="UserAuxSend0">
-									<ObjectRef Name="Corridor" ID="{9E50DD0F-A3FB-47D4-87B2-A115B5F896B4}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -310,11 +294,7 @@
 										<Value>-810</Value>
 									</ValueList>
 								</Property>
-								<Property Name="UserAuxSendVolume0" Type="Real64">
-									<ValueList>
-										<Value>12</Value>
-									</ValueList>
-								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>8</Value>
@@ -327,9 +307,6 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
-								</Reference>
-								<Reference Name="UserAuxSend0">
-									<ObjectRef Name="Corridor" ID="{9E50DD0F-A3FB-47D4-87B2-A115B5F896B4}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -414,6 +391,7 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Enemy1_Dead" ID="{6691AF8A-8FF5-4954-8B2F-CA8AF12AB7AC}" ShortID="929910844">
 									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
 										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
 										<Property Name="UserAuxSendVolume0" Type="Real64">
 											<ValueList>
@@ -548,6 +526,7 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="Enemy2_Dead" ID="{6BB757C1-3096-4DFE-BE01-C3DB2FC13B55}" ShortID="503372356">
 									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
 										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
 									</PropertyList>
 									<ReferenceList>
@@ -1045,9 +1024,10 @@
 							</ValueList>
 						</Property>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>2</Value>
+								<Value>6</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -1060,9 +1040,6 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
-						</Reference>
-						<Reference Name="UserAuxSend0">
-							<ObjectRef Name="Corridor" ID="{9E50DD0F-A3FB-47D4-87B2-A115B5F896B4}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1294,13 +1271,14 @@
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
 									<ValueList>
-										<Value>-610</Value>
+										<Value>-300</Value>
 									</ValueList>
 								</Property>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="UserAuxSendVolume0" Type="Real64">
 									<ValueList>
-										<Value>1</Value>
+										<Value>-6</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
@@ -1319,27 +1297,19 @@
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
 								</Reference>
-								<Reference Name="UserAuxSend0">
-									<ObjectRef Name="Corridor" ID="{9E50DD0F-A3FB-47D4-87B2-A115B5F896B4}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
-								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Lever" ID="{1EE7C9A5-7DAC-4895-9A19-28E2CEEE4880}" ShortID="16679997">
+								<AudioFileSource Name="Lever" ID="{D8D844D1-90B2-4AD1-8B2E-CF3067126315}" ShortID="823990075">
 									<PropertyList>
-										<Property Name="TrimBegin" Type="Real64" Value="1.11887303594004"/>
-										<Property Name="TrimEnd" Type="Real64" Value="1.86324724580098"/>
-										<Property Name="VolumeOffset" Type="Real64">
-											<ValueList>
-												<Value>0.6</Value>
-											</ValueList>
-										</Property>
+										<Property Name="TrimBegin" Type="Real64" Value="0.952429113238218"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.99501535127325"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Puzzle\Lever.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Lever" ID="{1EE7C9A5-7DAC-4895-9A19-28E2CEEE4880}" Platform="Linked"/>
+								<ActiveSource Name="Lever" ID="{D8D844D1-90B2-4AD1-8B2E-CF3067126315}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<RandomSequenceContainer Name="Chain" ID="{03456842-46A1-40A2-80FF-523F3CD0AEC1}" ShortID="509730605">
@@ -1360,9 +1330,10 @@
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="UserAuxSendVolume0" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>2</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
@@ -1415,6 +1386,12 @@
 						<RandomSequenceContainer Name="BarrelsSinking" ID="{1DBD6EE6-8384-4A9F-9A34-2640091B637A}" ShortID="172660886">
 							<PropertyList>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>3</Value>
@@ -1430,6 +1407,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Corridor" ID="{9E50DD0F-A3FB-47D4-87B2-A115B5F896B4}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
