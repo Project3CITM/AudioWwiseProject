@@ -257,7 +257,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Arrow_Impact_Wall" ID="{DF076979-7EC3-469D-B8B0-B5B9C17074B5}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+													<ObjectRef Name="Theon_Arrow_Impact_Wall" ID="{DF076979-7EC3-469D-B8B0-B5B9C17074B5}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
