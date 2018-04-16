@@ -1447,6 +1447,490 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Boss" ID="{856AEFE4-9F5E-4158-A6D1-60EBF30FD404}" ShortID="332581231">
+					<ChildrenList>
+						<Sound Name="Boss_attack_preparation" ID="{89420B17-4C8F-4931-9CCE-8512475DB91B}" ShortID="871469526">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DistanceAttenuation" ID="{1389B177-B29D-477A-B140-162C3F8BC908}" WorkUnitID="{F48D92E3-3623-4302-A981-FFC426439529}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Boss_attack_preparation" ID="{018DDE90-4902-4E1D-A74D-158C41970A02}" ShortID="495546356">
+									<Language>SFX</Language>
+									<AudioFile>Boss_attack_preparation.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Boss_attack_preparation" ID="{018DDE90-4902-4E1D-A74D-158C41970A02}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Boss_craniumcrush" ID="{5CE8CF69-2A5A-4028-936D-DC723E5075D7}" ShortID="702673067">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DistanceAttenuation" ID="{1389B177-B29D-477A-B140-162C3F8BC908}" WorkUnitID="{F48D92E3-3623-4302-A981-FFC426439529}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Boss_craniumcrush" ID="{8FE831BE-1346-4988-9148-D75F8D8F5423}" ShortID="34303078">
+									<Language>SFX</Language>
+									<AudioFile>Boss_craniumcrush.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Boss_craniumcrush" ID="{8FE831BE-1346-4988-9148-D75F8D8F5423}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Boss_death_groan" ID="{7A436371-6823-429F-BC0A-C725A9575194}" ShortID="1029053629">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DistanceAttenuation" ID="{1389B177-B29D-477A-B140-162C3F8BC908}" WorkUnitID="{F48D92E3-3623-4302-A981-FFC426439529}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Boss_death_groan" ID="{0C30BEFE-84E1-4351-9CA4-2CFBA088455F}" ShortID="587520127">
+									<Language>SFX</Language>
+									<AudioFile>Boss_death_groan.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Boss_death_groan" ID="{0C30BEFE-84E1-4351-9CA4-2CFBA088455F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Boss_falls_to_ground" ID="{2D1DAAD0-0416-40D9-B6ED-439F5F87E99D}" ShortID="1016375365">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DistanceAttenuation" ID="{1389B177-B29D-477A-B140-162C3F8BC908}" WorkUnitID="{F48D92E3-3623-4302-A981-FFC426439529}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Boss_falls_to_ground" ID="{331A9246-5609-4678-A379-B81134A4A1EB}" ShortID="304824152">
+									<Language>SFX</Language>
+									<AudioFile>Boss_falls_to_ground.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Boss_falls_to_ground" ID="{331A9246-5609-4678-A379-B81134A4A1EB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Boss_falls_to_knees" ID="{905C9460-2D1D-4AC4-98F8-8E069772255F}" ShortID="430358884">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DistanceAttenuation" ID="{1389B177-B29D-477A-B140-162C3F8BC908}" WorkUnitID="{F48D92E3-3623-4302-A981-FFC426439529}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Boss_falls_to_knees" ID="{99B3874A-2344-4720-8D2B-5048E838FD8B}" ShortID="713280947">
+									<Language>SFX</Language>
+									<AudioFile>Boss_falls_to_knees.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Boss_falls_to_knees" ID="{99B3874A-2344-4720-8D2B-5048E838FD8B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Boss_Growl" ID="{C679AC4E-E323-4C91-AB84-A6A8966473F8}" ShortID="239481003">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DistanceAttenuation" ID="{1389B177-B29D-477A-B140-162C3F8BC908}" WorkUnitID="{F48D92E3-3623-4302-A981-FFC426439529}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Boss_Growl" ID="{6A60645E-CCCA-4032-84AB-1C3EF012DBA7}" ShortID="508510935">
+									<Language>SFX</Language>
+									<AudioFile>Boss_Growl.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Boss_Growl" ID="{6A60645E-CCCA-4032-84AB-1C3EF012DBA7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Boss_hit_ground" ID="{A129CD9E-5C41-4412-BCB4-FC55BEC29FA6}" ShortID="435951136">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DistanceAttenuation" ID="{1389B177-B29D-477A-B140-162C3F8BC908}" WorkUnitID="{F48D92E3-3623-4302-A981-FFC426439529}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Boss_hit_ground" ID="{FE76C6C9-1C82-4B43-A2F3-E234143D29A7}" ShortID="364269213">
+									<Language>SFX</Language>
+									<AudioFile>Boss_hit_ground.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Boss_hit_ground" ID="{FE76C6C9-1C82-4B43-A2F3-E234143D29A7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Boss_punch_air" ID="{73884313-9B17-4D20-A471-DFEF68B3D511}" ShortID="783603371">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DistanceAttenuation" ID="{1389B177-B29D-477A-B140-162C3F8BC908}" WorkUnitID="{F48D92E3-3623-4302-A981-FFC426439529}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Boss_punch_air" ID="{EE9C94DF-47EB-4209-A14B-140570A8EE8A}" ShortID="881114355">
+									<Language>SFX</Language>
+									<AudioFile>Boss_punch_air.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Boss_punch_air" ID="{EE9C94DF-47EB-4209-A14B-140570A8EE8A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Boss_soldier_falls" ID="{58E51311-D0C2-4972-BD9A-978E74CBCC3A}" ShortID="129155714">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DistanceAttenuation" ID="{1389B177-B29D-477A-B140-162C3F8BC908}" WorkUnitID="{F48D92E3-3623-4302-A981-FFC426439529}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Boss_soldier_falls" ID="{B680954A-6AF6-4D9A-9859-F11064BFB996}" ShortID="567468000">
+									<Language>SFX</Language>
+									<AudioFile>Boss_soldier_falls.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Boss_soldier_falls" ID="{B680954A-6AF6-4D9A-9859-F11064BFB996}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Boss_soldier_scream" ID="{E5F1F675-FCBD-48C7-BFB7-C29E23BACFC3}" ShortID="849242836">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DistanceAttenuation" ID="{1389B177-B29D-477A-B140-162C3F8BC908}" WorkUnitID="{F48D92E3-3623-4302-A981-FFC426439529}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Boss_soldier_scream" ID="{AF693023-623F-4D78-86A0-0F550F498FF8}" ShortID="1073014169">
+									<Language>SFX</Language>
+									<AudioFile>Boss_soldier_scream.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Boss_soldier_scream" ID="{AF693023-623F-4D78-86A0-0F550F498FF8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Boss_step" ID="{EE4B0CFD-EADC-4B78-997A-79B96AEC77A6}" ShortID="963081199">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DistanceAttenuation" ID="{1389B177-B29D-477A-B140-162C3F8BC908}" WorkUnitID="{F48D92E3-3623-4302-A981-FFC426439529}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Boss_step" ID="{B9FBB9D8-A172-4297-9C3A-E850756E6E52}" ShortID="731437871">
+									<Language>SFX</Language>
+									<AudioFile>Boss_step.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Boss_step" ID="{B9FBB9D8-A172-4297-9C3A-E850756E6E52}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Boss_step2" ID="{7FEED69F-B499-43A6-A142-1DD537163D06}" ShortID="873557608">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DistanceAttenuation" ID="{1389B177-B29D-477A-B140-162C3F8BC908}" WorkUnitID="{F48D92E3-3623-4302-A981-FFC426439529}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Boss_step2" ID="{A144CEBD-D13C-4CC0-B544-E7FDE935CF47}" ShortID="46750343">
+									<Language>SFX</Language>
+									<AudioFile>Boss_step2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Boss_step2" ID="{A144CEBD-D13C-4CC0-B544-E7FDE935CF47}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Boss_sword_falls" ID="{EC6AF121-F1AC-4E5D-AD61-049A1E6A7E87}" ShortID="1050737696">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DistanceAttenuation" ID="{1389B177-B29D-477A-B140-162C3F8BC908}" WorkUnitID="{F48D92E3-3623-4302-A981-FFC426439529}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Boss_sword_falls" ID="{832C412E-AD00-4900-9AA7-7746B5E38340}" ShortID="475114885">
+									<Language>SFX</Language>
+									<AudioFile>Boss_sword_falls.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Boss_sword_falls" ID="{832C412E-AD00-4900-9AA7-7746B5E38340}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Boss_swordswing" ID="{FD73876F-CB06-4561-8E5C-0335B34563DA}" ShortID="677199489">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DistanceAttenuation" ID="{1389B177-B29D-477A-B140-162C3F8BC908}" WorkUnitID="{F48D92E3-3623-4302-A981-FFC426439529}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Boss_swordswing" ID="{AE9B9F83-CD45-4D70-83C7-C592D26E79FB}" ShortID="1071164662">
+									<Language>SFX</Language>
+									<AudioFile>Boss_swordswing.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Boss_swordswing" ID="{AE9B9F83-CD45-4D70-83C7-C592D26E79FB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Hurts" ID="{FE1CA127-A509-4BC2-8D97-DD32DEB609B2}" ShortID="33340941">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Boss_hurt1" ID="{FF76288F-4259-4055-8C4E-99D78B765F15}" ShortID="1030116812">
+									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="DistanceAttenuation" ID="{1389B177-B29D-477A-B140-162C3F8BC908}" WorkUnitID="{F48D92E3-3623-4302-A981-FFC426439529}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Boss_hurt1" ID="{A07E3F6B-4198-43B1-9C0F-7C0224512CDB}" ShortID="246088314">
+											<Language>SFX</Language>
+											<AudioFile>Boss_hurt1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Boss_hurt1" ID="{A07E3F6B-4198-43B1-9C0F-7C0224512CDB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Boss_hurt2" ID="{00F158CB-9F9E-4B99-84D0-8828CA526267}" ShortID="701404384">
+									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="DistanceAttenuation" ID="{1389B177-B29D-477A-B140-162C3F8BC908}" WorkUnitID="{F48D92E3-3623-4302-A981-FFC426439529}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Boss_hurt2" ID="{FD25781E-0455-4FBA-83F4-08FB00B9CA7D}" ShortID="254082414">
+											<Language>SFX</Language>
+											<AudioFile>Boss_hurt2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Boss_hurt2" ID="{FD25781E-0455-4FBA-83F4-08FB00B9CA7D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Boss_hurt4" ID="{85E4E1C7-0685-4DB6-89E5-3E6BC17A80C2}" ShortID="826013766">
+									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="DistanceAttenuation" ID="{1389B177-B29D-477A-B140-162C3F8BC908}" WorkUnitID="{F48D92E3-3623-4302-A981-FFC426439529}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Boss_hurt4" ID="{A7017F90-9E3D-4F48-BB33-39AC140C450A}" ShortID="628133761">
+											<Language>SFX</Language>
+											<AudioFile>Boss_hurt4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Boss_hurt4" ID="{A7017F90-9E3D-4F48-BB33-39AC140C450A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Boss_hurt3" ID="{08EB0D12-1436-4FC9-9BA9-426604B85463}" ShortID="653064201">
+									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="DistanceAttenuation" ID="{1389B177-B29D-477A-B140-162C3F8BC908}" WorkUnitID="{F48D92E3-3623-4302-A981-FFC426439529}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Boss_hurt3" ID="{368EBD98-B9A9-4B85-8D11-6D65BF4C8FAC}" ShortID="928489495">
+											<Language>SFX</Language>
+											<AudioFile>Boss_hurt3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Boss_hurt3" ID="{368EBD98-B9A9-4B85-8D11-6D65BF4C8FAC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

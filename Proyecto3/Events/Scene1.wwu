@@ -417,6 +417,220 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Boss" ID="{D6DCFA88-B462-4A84-BC74-3FA0518F68B8}" ShortID="324903117">
+					<ChildrenList>
+						<Event Name="AttackPreparation" ID="{C955EB92-3BF6-4A32-822F-7ABCA7786B9C}">
+							<ChildrenList>
+								<Action Name="" ID="{F8BA56AF-2DCA-42E4-B124-B6BDFD63679C}" ShortID="859624178">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_attack_preparation" ID="{89420B17-4C8F-4931-9CCE-8512475DB91B}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CraniumCrush" ID="{B778485E-DB62-425E-9525-7578B711EC2C}">
+							<ChildrenList>
+								<Action Name="" ID="{85CA8FEF-AAD6-4CFE-BBCD-8E86DCAE69CE}" ShortID="724760573">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_craniumcrush" ID="{5CE8CF69-2A5A-4028-936D-DC723E5075D7}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BossDeath" ID="{3BADC512-57A9-407A-91C0-64D06E4D7D5E}">
+							<ChildrenList>
+								<Action Name="" ID="{A3D9EC70-78C6-4782-9A8A-39920DF5A86B}" ShortID="520408758">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_death_groan" ID="{7A436371-6823-429F-BC0A-C725A9575194}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BossFalls" ID="{A6F03423-1BAB-490D-83AA-E39467D52E84}">
+							<ChildrenList>
+								<Action Name="" ID="{A87B28ED-8AD6-4CBC-A9E7-6669F8FE96DB}" ShortID="1056852482">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_falls_to_ground" ID="{2D1DAAD0-0416-40D9-B6ED-439F5F87E99D}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BossToKnees" ID="{3F998D1B-65E1-4DA8-831C-0AF2F0F986C4}">
+							<ChildrenList>
+								<Action Name="" ID="{358D97F0-6C86-4A76-8690-764FB0DCA8FC}" ShortID="321075397">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_falls_to_knees" ID="{905C9460-2D1D-4AC4-98F8-8E069772255F}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BossGrowl" ID="{232136C7-9CCD-4FA8-AE25-3345048B35DB}">
+							<ChildrenList>
+								<Action Name="" ID="{9F28E2BD-1986-498F-BB44-A83FBA49C6AF}" ShortID="763207398">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_Growl" ID="{C679AC4E-E323-4C91-AB84-A6A8966473F8}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BossHitGround" ID="{91318F83-AEF2-47F7-B9AC-641ED013007A}">
+							<ChildrenList>
+								<Action Name="" ID="{6B68B40F-2346-46A1-A8B6-472FE8B60886}" ShortID="29510156">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_hit_ground" ID="{A129CD9E-5C41-4412-BCB4-FC55BEC29FA6}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BossHurt" ID="{0FEE02D8-BB5A-4A49-AA86-932823F0D773}">
+							<ChildrenList>
+								<Action Name="" ID="{78EC4F0F-B9CD-492C-B694-CC30A3E8B4B9}" ShortID="986636826">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hurts" ID="{FE1CA127-A509-4BC2-8D97-DD32DEB609B2}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PunchAttack" ID="{92B4A756-F22C-415F-9464-4582B507AEB0}">
+							<ChildrenList>
+								<Action Name="" ID="{0E802CF0-E459-46F3-9EA5-CEB58C8191DE}" ShortID="492265270">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_punch_air" ID="{73884313-9B17-4D20-A471-DFEF68B3D511}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BossSoldierFalls" ID="{B3C7E428-1827-46DF-99F3-1224A93FA3CD}">
+							<ChildrenList>
+								<Action Name="" ID="{D86E8C0C-1888-40EA-9D63-7D891359CABD}" ShortID="166433811">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_soldier_falls" ID="{58E51311-D0C2-4972-BD9A-978E74CBCC3A}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BossSoldierScream" ID="{98866A96-A9FD-423A-89C2-E0411DCE690E}">
+							<ChildrenList>
+								<Action Name="" ID="{183CD470-8853-4CEF-8132-48536F268BD6}" ShortID="660959808">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_soldier_scream" ID="{E5F1F675-FCBD-48C7-BFB7-C29E23BACFC3}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BossWalkPhase1" ID="{FDD4CB64-1B29-4DBF-970F-357DB16C5E57}">
+							<ChildrenList>
+								<Action Name="" ID="{D960FCD6-F2F4-4437-89B5-15FB09009371}" ShortID="412526367">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_step" ID="{EE4B0CFD-EADC-4B78-997A-79B96AEC77A6}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BossWalkPhase2" ID="{6660B5D0-116C-4DDE-8E65-FEC1560F8378}">
+							<ChildrenList>
+								<Action Name="" ID="{961D92C1-151C-41ED-96F0-D757DE1429C8}" ShortID="462358552">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_step2" ID="{7FEED69F-B499-43A6-A142-1DD537163D06}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SwordFalls" ID="{DF062D21-12F0-418E-A633-C87FC209BE6F}">
+							<ChildrenList>
+								<Action Name="" ID="{E985E280-C085-412F-BBD7-A1EFF36582EE}" ShortID="1071129457">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_sword_falls" ID="{EC6AF121-F1AC-4E5D-AD61-049A1E6A7E87}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BossSwordSwing" ID="{B96FA0AB-99DB-4F41-A614-07DEF4BE81A0}">
+							<ChildrenList>
+								<Action Name="" ID="{B4346B36-C8A5-4567-8E25-68AF77CB8466}" ShortID="994634341">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_swordswing" ID="{FD73876F-CB06-4561-8E5C-0335B34563DA}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

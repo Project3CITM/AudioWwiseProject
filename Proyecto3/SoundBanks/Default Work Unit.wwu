@@ -80,6 +80,28 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Enemies" ID="{8399AD57-E79C-4DD2-ABBD-315227E48659}">
+					<ObjectInclusionList>
+						<ObjectRef Name="BossDeath" ID="{3BADC512-57A9-407A-91C0-64D06E4D7D5E}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PunchAttack" ID="{92B4A756-F22C-415F-9464-4582B507AEB0}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SwordFalls" ID="{DF062D21-12F0-418E-A633-C87FC209BE6F}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BossSoldierScream" ID="{98866A96-A9FD-423A-89C2-E0411DCE690E}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="CraniumCrush" ID="{B778485E-DB62-425E-9525-7578B711EC2C}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayBossMusic" ID="{C253FA49-476D-447A-8581-9E492A74F058}" WorkUnitID="{C264F335-8C57-4526-A85F-F2797EC3A98E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BossSoldierFalls" ID="{B3C7E428-1827-46DF-99F3-1224A93FA3CD}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BossHitGround" ID="{91318F83-AEF2-47F7-B9AC-641ED013007A}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BossFalls" ID="{A6F03423-1BAB-490D-83AA-E39467D52E84}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AttackPreparation" ID="{C955EB92-3BF6-4A32-822F-7ABCA7786B9C}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BossHurt" ID="{0FEE02D8-BB5A-4A49-AA86-932823F0D773}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BossToKnees" ID="{3F998D1B-65E1-4DA8-831C-0AF2F0F986C4}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BossWalkPhase1" ID="{FDD4CB64-1B29-4DBF-970F-357DB16C5E57}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BossWalkPhase2" ID="{6660B5D0-116C-4DDE-8E65-FEC1560F8378}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BossSwordSwing" ID="{B96FA0AB-99DB-4F41-A614-07DEF4BE81A0}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BossGrowl" ID="{232136C7-9CCD-4FA8-AE25-3345048B35DB}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

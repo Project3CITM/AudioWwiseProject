@@ -685,6 +685,93 @@
 						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="FinalBattleBoss" ID="{A8DFDFE2-48EA-4445-936E-4BF70E4B7467}" ShortID="304740364">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Final_Boss" ID="{77CEBD3D-510A-4BA0-855F-02503D607041}" ShortID="913292514">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="99895.5555555556"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="FinalBossMusic" ID="{FF526A18-9023-4538-8D54-52C486077D5C}" ShortID="136414301">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Boss_theme" ID="{BB6128AB-D93E-444F-A083-A7100C68C93F}" ShortID="195378477">
+											<Language>SFX</Language>
+											<AudioFile>Boss_theme.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{2F07F776-6BC7-427F-93CE-0FAD0883CC0E}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{3D57CAB5-C11F-48BA-BC1B-65076EDFD6CF}">
+											<ClipList>
+												<MusicClip Name="Boss_theme" ID="{1FFF2EA2-0ED1-4295-AE0F-66ACEF0AB0EA}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="99895.5555555556"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Boss_theme" ID="{BB6128AB-D93E-444F-A083-A7100C68C93F}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{03088B30-AAF0-47D4-AFD8-F7B8727A37D3}"/>
+								<MusicCue Name="Exit Cue" ID="{CDE015B5-55EE-4E6E-A15A-51C4CEA76D9A}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{134D45B5-553F-48D4-A7A1-CB965A783C68}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{B29B8AB5-A7A7-4662-BC3C-7862F37196B3}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{3089EB31-16D2-4AD7-A76B-CC2F2E13C6FB}" ShortID="341628599"/>
+					</Playlist>
+				</MusicPlaylistContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>
