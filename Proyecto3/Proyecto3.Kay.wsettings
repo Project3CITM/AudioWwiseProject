@@ -48,6 +48,7 @@
 				<Property Name="Event Action List\{C03ADCB8-9F9F-4AF0-B6B6-8B63E76EDE3A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C253FA49-476D-447A-8581-9E492A74F058}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C3DF1D37-82CB-44E3-89B7-264559BB28DF}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C955EB92-3BF6-4A32-822F-7ABCA7786B9C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D27AFA68-0AB8-4459-BBDD-23CC32D7E0C7}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D4E89F7F-6BCD-4B64-890B-9154060C2568}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D96B38F6-90E2-4120-9130-43D5D1DF68DE}\x64_Expand States" Type="string" Value=""/>
@@ -82,7 +83,7 @@
 				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="Ej2QWbEsBUGsPho3kBcQvA=="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="r6MPBH4UMECTW4uH8x+7RmRg8WvmokFPvLaw0ca1UWRj4xsD9uVBS6dcjA+uebiT"/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="r6MPBH4UMECTW4uH8x+7RmRg8WvmokFPvLaw0ca1UWRj4xsD9uVBS6dcjA+uebiT+PvZipcKUEm/fGqhQUyVBQ=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="Interactive Music\x64_{39D05FB0-013C-4A80-8567-A26263C0CF6A} - SegmentEditorZoomInfo" Type="string" Value="AAAAAABAFEAAAAAAAADwPwAAAAAsVkdAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{39D2BB77-7A93-46B9-8A79-367587E6A163} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP6l0i5neyzRAAAAAAAAA8D8AAAAAAAAAAAAAAAAAgE5A"/>

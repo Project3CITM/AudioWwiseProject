@@ -107,6 +107,14 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Level3" ID="{8AD9FBF8-0A97-4950-BF7C-6AA1414C9505}">
+					<ObjectInclusionList>
+						<ObjectRef Name="SwitchOff" ID="{E4764F6A-AA0C-4C8E-A72C-59702967D963}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SwitchOn" ID="{6E6310DC-78B5-4CE5-8604-DAE18D30AE9B}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

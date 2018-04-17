@@ -1964,6 +1964,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Door_open_close_end" ID="{ABC149ED-4ED4-411B-868B-BCA2CB191A69}" ShortID="583166116">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.406194456150208"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.102387858781664"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.768748185606592"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Door_open_close_end.wav</AudioFile>
 								</AudioFileSource>
