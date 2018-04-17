@@ -14,6 +14,14 @@
 						<State Name="State3" ID="{3651A2D5-CA66-41CD-8322-82A7CDCB4D1B}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="MusicState" ID="{B5AF4670-0AD2-458B-84CB-A1E325803A4D}">
+					<ChildrenList>
+						<State Name="None" ID="{9C7113DF-253E-4BCF-B728-A6007854367B}"/>
+						<State Name="Level2" ID="{977EC5D0-F7F7-47A6-8E78-AB96DA99EC4B}"/>
+						<State Name="FinalBoss" ID="{7D4FC7A4-4807-4E30-862F-F6F1ABE90175}"/>
+						<State Name="Combat" ID="{3C42063F-BCE6-43E2-A9EB-2AB7CEF4F030}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

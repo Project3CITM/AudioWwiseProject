@@ -81,7 +81,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Ambient" ID="{5299395A-CCFE-48A6-9E9A-8F01E1BC4648}" WorkUnitID="{E9F376F5-69D7-4D29-81FB-07C122D11953}"/>
+									<ObjectRef Name="Level2" ID="{5299395A-CCFE-48A6-9E9A-8F01E1BC4648}" WorkUnitID="{E9F376F5-69D7-4D29-81FB-07C122D11953}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
