@@ -21,6 +21,7 @@
 						<ObjectRef Name="PlayTorch" ID="{7C720C04-3FFE-41AB-8774-A9F28051D47D}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="TheonMeleShout" ID="{5050CD6E-6560-4228-9E58-2B90233B8DC6}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="DoorLoop" ID="{EE81E0C7-E87D-4234-AC3B-4CFC711F3096}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Combat_theme" ID="{B40E8928-3682-42D7-8489-51D11A15A32A}" WorkUnitID="{E9F376F5-69D7-4D29-81FB-07C122D11953}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="ResumeAll" ID="{64FE7E2F-1FA6-42DD-B117-7FD0A2A07ACF}" WorkUnitID="{3F7F9352-BACD-4CEC-BDA5-9D283918BCCD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="DaenerysFire" ID="{12C961EC-2D7B-4408-9AFB-53DE2D0FCC9D}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="JaimeFailImpact" ID="{D27AFA68-0AB8-4459-BBDD-23CC32D7E0C7}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
@@ -28,7 +29,6 @@
 						<ObjectRef Name="TheonMele" ID="{9AD64730-E094-4496-B15B-DECBBF06E5C8}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Enemy3_Hurt" ID="{C3DF1D37-82CB-44E3-89B7-264559BB28DF}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="TheonDead" ID="{BFCBEBE7-6493-4510-92AC-0353AA015830}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="BehindMe" ID="{144E7A49-83AD-4515-A840-0BD06CE4CA62}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PlayAmbient" ID="{2210676F-F58D-4526-8C46-10D2272D9CB7}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="JaimeWarCry" ID="{B7046355-D64D-4563-BFE7-896A3D2B4F69}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="CrossbowShot" ID="{290BFB2B-5B63-45A6-B118-7CD58ADEDC47}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>

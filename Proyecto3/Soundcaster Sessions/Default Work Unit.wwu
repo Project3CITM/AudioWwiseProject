@@ -23,7 +23,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="FinalBoss" ID="{7D4FC7A4-4807-4E30-862F-F6F1ABE90175}"/>
+						<CurrentStateRef Name="Combat" ID="{3C42063F-BCE6-43E2-A9EB-2AB7CEF4F030}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
