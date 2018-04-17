@@ -3,156 +3,6 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}" PersistMode="Standalone">
 			<ChildrenList>
-				<RandomSequenceContainer Name="FootSepts_Stone" ID="{423ABFF2-17D7-4082-AA63-1E615A832F41}" ShortID="917137316">
-					<PropertyList>
-						<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
-						<Property Name="Highpass" Type="int16">
-							<ValueList>
-								<Value>36</Value>
-							</ValueList>
-						</Property>
-						<Property Name="Lowpass" Type="int16">
-							<ValueList>
-								<Value>29</Value>
-							</ValueList>
-						</Property>
-						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-						<Property Name="PositioningType" Type="int16" Value="1"/>
-						<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
-						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
-						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>3</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="footstep_stone" ID="{2A6A6512-8155-4BE3-B205-97252D24D2E2}" ShortID="517327902">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="footstep_stone" ID="{A59A1C35-E5DB-4433-BAF8-EEF72E512AD4}" ShortID="337181357">
-									<PropertyList>
-										<Property Name="TrimBegin" Type="Real64" Value="0.05601723820059"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Ambient\footstep_stone.wav</AudioFile>
-									<ConvertedFileIDList>
-										<File ID="178260986"/>
-									</ConvertedFileIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="footstep_stone" ID="{A59A1C35-E5DB-4433-BAF8-EEF72E512AD4}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="footstep_stone_01" ID="{9D2807E4-310C-413F-81CB-740679F1A813}" ShortID="583294040">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>-80</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="footstep_stone" ID="{2DF1BE77-B1FA-4557-A351-76B23D7239A8}" ShortID="252929518">
-									<PropertyList>
-										<Property Name="TrimBegin" Type="Real64" Value="6.42399520648968E-02"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Ambient\footstep_stone.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="footstep_stone" ID="{2DF1BE77-B1FA-4557-A351-76B23D7239A8}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="footstep_stone_02" ID="{F8CDFA30-9C0A-48B6-98FB-DE7D0B2F8B6F}" ShortID="775382638">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>-150</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="footstep_stone" ID="{DFFF49BE-2022-4F4B-9E53-0C4D1ADD8425}" ShortID="1022376451">
-									<PropertyList>
-										<Property Name="TrimBegin" Type="Real64" Value="5.77303035889872E-02"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Ambient\footstep_stone.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="footstep_stone" ID="{DFFF49BE-2022-4F4B-9E53-0C4D1ADD8425}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="footstep_stone_03" ID="{26DA4865-1982-4A06-B4D7-3E732FD39813}" ShortID="276557">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>150</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="footstep_stone" ID="{8F724BAD-229B-4D47-8B99-12161266CB1F}" ShortID="178260986">
-									<PropertyList>
-										<Property Name="TrimBegin" Type="Real64" Value="6.20129670599803E-02"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Ambient\footstep_stone.wav</AudioFile>
-									<ConvertedFileIDList>
-										<File ID="337181357"/>
-									</ConvertedFileIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="footstep_stone" ID="{8F724BAD-229B-4D47-8B99-12161266CB1F}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</RandomSequenceContainer>
 				<Folder Name="Miscellaneous_Combat" ID="{1A85E73F-0B50-40D6-8B92-4C74814B4664}" ShortID="973090383">
 					<ChildrenList>
 						<RandomSequenceContainer Name="SwordSlash" ID="{D1398C2F-6512-4B8E-9EA0-C4211D70B89E}" ShortID="249456925">
@@ -1016,52 +866,7 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
-				<Sound Name="Torch" ID="{2DFF1F15-8996-4F0C-9E26-CC540ED35837}" ShortID="81623821">
-					<PropertyList>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="PositioningType" Type="int16" Value="1"/>
-						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>4</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Attenuation">
-							<ObjectRef Name="DistanceAttenuation" ID="{1389B177-B29D-477A-B140-162C3F8BC908}" WorkUnitID="{F48D92E3-3623-4302-A981-FFC426439529}"/>
-						</Reference>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="torch" ID="{8BD7A6DA-BC44-4BC6-9E4F-0E829F02550D}" ShortID="842002003">
-							<PropertyList>
-								<Property Name="CrossfadeDuration" Type="Real64" Value="18"/>
-								<Property Name="FadeInDuration" Type="Real64" Value="0.317611656636047"/>
-								<Property Name="FadeOutDuration" Type="Real64" Value="0.317611656636046"/>
-								<Property Name="LoopBegin" Type="Real64" Value="0"/>
-								<Property Name="LoopEnd" Type="Real64" Value="28.6485714285714"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="VolumeOffset" Type="Real64">
-									<ValueList>
-										<Value>2.2</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>Ambient\torch.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="torch" ID="{8BD7A6DA-BC44-4BC6-9E4F-0E829F02550D}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Folder Name="Puzzle" ID="{D91E9053-D0FC-4594-B51C-CF42F2050A8D}" ShortID="818388620">
+				<Folder Name="BarrelPuzzle" ID="{D91E9053-D0FC-4594-B51C-CF42F2050A8D}" ShortID="818388620">
 					<ChildrenList>
 						<RandomSequenceContainer Name="WaterSplash" ID="{24433602-B7B8-4617-97FA-28FF3472E613}" ShortID="824411435">
 							<PropertyList>
@@ -1265,11 +1070,6 @@
 						</Sound>
 						<Sound Name="LeverFx" ID="{067665E5-8E2D-44E4-B328-65A29B7B1ABD}" ShortID="450177063">
 							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>-300</Value>
-									</ValueList>
-								</Property>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="UserAuxSendVolume0" Type="Real64">
@@ -1928,6 +1728,348 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Stage" ID="{C60BEAA4-E7E5-42A8-A25D-F01ABB640D7C}" ShortID="245534116">
+					<ChildrenList>
+						<RandomSequenceContainer Name="FootSepts_Stone" ID="{423ABFF2-17D7-4082-AA63-1E615A832F41}" ShortID="917137316">
+							<PropertyList>
+								<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>36</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>29</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="footstep_stone" ID="{2A6A6512-8155-4BE3-B205-97252D24D2E2}" ShortID="517327902">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footstep_stone" ID="{A59A1C35-E5DB-4433-BAF8-EEF72E512AD4}" ShortID="337181357">
+											<PropertyList>
+												<Property Name="TrimBegin" Type="Real64" Value="0.05601723820059"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambient\footstep_stone.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="178260986"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="footstep_stone" ID="{A59A1C35-E5DB-4433-BAF8-EEF72E512AD4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="footstep_stone_01" ID="{9D2807E4-310C-413F-81CB-740679F1A813}" ShortID="583294040">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-80</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footstep_stone" ID="{2DF1BE77-B1FA-4557-A351-76B23D7239A8}" ShortID="252929518">
+											<PropertyList>
+												<Property Name="TrimBegin" Type="Real64" Value="6.42399520648968E-02"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambient\footstep_stone.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="footstep_stone" ID="{2DF1BE77-B1FA-4557-A351-76B23D7239A8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="footstep_stone_02" ID="{F8CDFA30-9C0A-48B6-98FB-DE7D0B2F8B6F}" ShortID="775382638">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-150</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footstep_stone" ID="{DFFF49BE-2022-4F4B-9E53-0C4D1ADD8425}" ShortID="1022376451">
+											<PropertyList>
+												<Property Name="TrimBegin" Type="Real64" Value="5.77303035889872E-02"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambient\footstep_stone.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="footstep_stone" ID="{DFFF49BE-2022-4F4B-9E53-0C4D1ADD8425}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="footstep_stone_03" ID="{26DA4865-1982-4A06-B4D7-3E732FD39813}" ShortID="276557">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>150</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footstep_stone" ID="{8F724BAD-229B-4D47-8B99-12161266CB1F}" ShortID="178260986">
+											<PropertyList>
+												<Property Name="TrimBegin" Type="Real64" Value="6.20129670599803E-02"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambient\footstep_stone.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="337181357"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="footstep_stone" ID="{8F724BAD-229B-4D47-8B99-12161266CB1F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="AmbientNoise" ID="{37AF8236-E15A-4E14-8CF2-3D6C4AD0CB9C}" ShortID="1036729129">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambience" ID="{6A064347-1D4F-45CF-8266-634DFD60EA6F}" ShortID="991530287">
+									<Language>SFX</Language>
+									<AudioFile>Ambient\Ambience.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambience" ID="{6A064347-1D4F-45CF-8266-634DFD60EA6F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Torch" ID="{2DFF1F15-8996-4F0C-9E26-CC540ED35837}" ShortID="81623821">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DistanceAttenuation" ID="{1389B177-B29D-477A-B140-162C3F8BC908}" WorkUnitID="{F48D92E3-3623-4302-A981-FFC426439529}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="torch" ID="{8BD7A6DA-BC44-4BC6-9E4F-0E829F02550D}" ShortID="842002003">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="18"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.317611656636047"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.317611656636046"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="LoopEnd" Type="Real64" Value="28.6485714285714"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2.2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Ambient\torch.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="torch" ID="{8BD7A6DA-BC44-4BC6-9E4F-0E829F02550D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Door_open_close_end" ID="{7C5B72C6-EAEF-4198-98C5-7D002EDB00B9}" ShortID="35569083">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DistanceAttenuation" ID="{1389B177-B29D-477A-B140-162C3F8BC908}" WorkUnitID="{F48D92E3-3623-4302-A981-FFC426439529}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Door_open_close_end" ID="{ABC149ED-4ED4-411B-868B-BCA2CB191A69}" ShortID="583166116">
+									<Language>SFX</Language>
+									<AudioFile>Door_open_close_end.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Door_open_close_end" ID="{ABC149ED-4ED4-411B-868B-BCA2CB191A69}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Switch_Enable" ID="{125EECC2-C110-4ED9-88AA-6058FD248AF7}" ShortID="28169763">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Switch_Enable" ID="{B31EC7B4-4223-4DC8-BC85-4B152551B914}" ShortID="688257092">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="8.66038401594659E-02"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.355741928039653"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.742128291828039"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.09787021986769"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Switch_Enable.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Switch_Enable" ID="{B31EC7B4-4223-4DC8-BC85-4B152551B914}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Switch_Disable" ID="{FEE34317-B585-4E6F-96E8-ABAAFEFCD861}" ShortID="104124603">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>80</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Switch_Disable" ID="{43E63667-4D2A-4017-9373-AB38B7D89585}" ShortID="304204776">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="4.38384537689215E-02"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Switch_Disable.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Switch_Disable" ID="{43E63667-4D2A-4017-9373-AB38B7D89585}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="DoorLoop" ID="{337CBD35-B940-4A33-A085-082B9A98F5C4}" ShortID="907967523">
+							<PropertyList>
+								<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DistanceAttenuation" ID="{1389B177-B29D-477A-B140-162C3F8BC908}" WorkUnitID="{F48D92E3-3623-4302-A981-FFC426439529}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Door_open_close_loop" ID="{055C74A8-EC45-4670-A694-2BB71B347211}" ShortID="1052920525">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Door_open_close_loop" ID="{993FBDC9-FC7A-4C1F-9EEE-2841B8FDA821}" ShortID="823093066">
+											<Language>SFX</Language>
+											<AudioFile>Door_open_close_loop.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Door_open_close_loop" ID="{993FBDC9-FC7A-4C1F-9EEE-2841B8FDA821}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="Door_open_close_loop" ID="{055C74A8-EC45-4670-A694-2BB71B347211}"/>
+							</Playlist>
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
