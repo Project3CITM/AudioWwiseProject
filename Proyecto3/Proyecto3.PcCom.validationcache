@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="85">
-	<ValidationCacheItem File="F:\Escritorio\Proyectos GitHub\AudioWwiseProject\Proyecto3\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1524066585" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Escritorio\Proyectos GitHub\AudioWwiseProject\Proyecto3\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1524067281" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Escritorio\Proyectos GitHub\AudioWwiseProject\Proyecto3\Actor-Mixer Hierarchy\Player_01.wwu" DateLow="1524062095" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Escritorio\Proyectos GitHub\AudioWwiseProject\Proyecto3\Actor-Mixer Hierarchy\UI.wwu" DateLow="1523100941" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Escritorio\Proyectos GitHub\AudioWwiseProject\Proyecto3\Attenuations\Default Work Unit.wwu" DateLow="1522734928" DateHigh="0"/>
@@ -22,7 +22,7 @@
 	<ValidationCacheItem File="F:\Escritorio\Proyectos GitHub\AudioWwiseProject\Proyecto3\Effects\Factory McDSP Effects.wwu" DateLow="1522734928" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Escritorio\Proyectos GitHub\AudioWwiseProject\Proyecto3\Events\Default Work Unit.wwu" DateLow="1522734928" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Escritorio\Proyectos GitHub\AudioWwiseProject\Proyecto3\Events\Player_01.wwu" DateLow="1524062095" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Escritorio\Proyectos GitHub\AudioWwiseProject\Proyecto3\Events\Scene.wwu" DateLow="1524062095" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Escritorio\Proyectos GitHub\AudioWwiseProject\Proyecto3\Events\Scene.wwu" DateLow="1524067281" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Escritorio\Proyectos GitHub\AudioWwiseProject\Proyecto3\Events\Scene1.wwu" DateLow="1523893402" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Escritorio\Proyectos GitHub\AudioWwiseProject\Proyecto3\Events\UI.wwu" DateLow="1524062081" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Escritorio\Proyectos GitHub\AudioWwiseProject\Proyecto3\Game Parameters\Default Work Unit.wwu" DateLow="1522734928" DateHigh="0"/>
@@ -31,7 +31,7 @@
 	<ValidationCacheItem File="F:\Escritorio\Proyectos GitHub\AudioWwiseProject\Proyecto3\Mixing Sessions\Default Work Unit.wwu" DateLow="1522734928" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Escritorio\Proyectos GitHub\AudioWwiseProject\Proyecto3\Modulators\Default Work Unit.wwu" DateLow="1522734928" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Escritorio\Proyectos GitHub\AudioWwiseProject\Proyecto3\Presets\Default Work Unit.wwu" DateLow="1522734928" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Escritorio\Proyectos GitHub\AudioWwiseProject\Proyecto3\Proyecto3.PcCom.wsettings" DateLow="1524062082" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Escritorio\Proyectos GitHub\AudioWwiseProject\Proyecto3\Proyecto3.PcCom.wsettings" DateLow="1524067675" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Escritorio\Proyectos GitHub\AudioWwiseProject\Proyecto3\Proyecto3.wproj" DateLow="1524062095" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Escritorio\Proyectos GitHub\AudioWwiseProject\Proyecto3\Queries\Default Work Unit.wwu" DateLow="1522734928" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Escritorio\Proyectos GitHub\AudioWwiseProject\Proyecto3\Queries\Factory Queries.wwu" DateLow="1522734928" DateHigh="0"/>
