@@ -924,7 +924,6 @@
 										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
 										<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
 									</PropertyList>
-									<ReferenceList/>
 									<TransitionInfo>
 										<SourceFadeOut>
 											<MusicFade Name="Source Fade-out" ID="{CBF15424-6D6E-4B3F-A5EC-897CC802CE01}">
