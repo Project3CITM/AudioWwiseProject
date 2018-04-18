@@ -105,6 +105,34 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="JaimeTired" ID="{AE3E797C-E647-4CEC-AE06-098DF833F8E7}">
+									<ChildrenList>
+										<Action Name="" ID="{FBD5EE97-8DA1-4911-B68C-682BED3B2E1D}" ShortID="864333069">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Jaime_Tired" ID="{E1C59412-9601-436D-9379-A11DAA37A48B}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="JaimeBreathing" ID="{BEAB001E-2DD7-4F55-B7CB-147C003A3E0D}">
+									<ChildrenList>
+										<Action Name="" ID="{6C178928-ACB9-4518-ADE5-97C024E6A417}" ShortID="170538559">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Jaime_Desperately_Breathing" ID="{1654CF7B-FD72-4BD8-A274-6E29130BBEDE}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Theon" ID="{A23E7C8E-7FDF-4F4E-A973-6A6029ED3B95}" ShortID="32809509">
@@ -249,6 +277,34 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="TheonTired" ID="{EC979750-D7BA-4F08-B7BF-28FA35C0D8F8}">
+									<ChildrenList>
+										<Action Name="" ID="{05A76C73-18D7-406F-A390-6C7E0920A64F}" ShortID="418838198">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Theon_Tired" ID="{5FF8B043-2C0C-4D2F-B2F2-8A1C130D487F}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="TheonBreathing" ID="{FD66F3E3-4C53-4593-85DB-F14041DFCE6D}">
+									<ChildrenList>
+										<Action Name="" ID="{99995CCB-9B01-4E78-BD54-7A71DE34A444}" ShortID="715244653">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Theon_Desperately_Breathing" ID="{182CC413-D495-4F93-A6F6-5A002DAF0EE8}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Daenerys" ID="{D159EFC1-E1E1-4893-B53B-0063A48AAE26}" ShortID="349993225">
@@ -372,10 +428,52 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="DaenerysTired" ID="{FC92DFCB-F7C1-45A6-BA81-41F88F826FFC}">
+									<ChildrenList>
+										<Action Name="" ID="{09C7F8E4-EF4F-4A8C-9684-AEB82A261586}" ShortID="848387884">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Daennerys_Tired" ID="{1FE372AB-C1CA-4C0F-9B35-7D90F84ECE26}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DaenerysBreathing" ID="{52BBD36F-7B91-4463-B4E0-8A59638F8CD9}">
+									<ChildrenList>
+										<Action Name="" ID="{E3335EDC-DA29-4EDB-8E18-BCF3349423E6}" ShortID="113181362">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Daennerys_Desperately_Breathing" ID="{24171505-9BD0-4A0C-9264-05CA053054AF}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Event Name="HeartBeat" ID="{44569CB7-B772-455B-B794-DFF41651FFFC}">
+					<ChildrenList>
+						<Action Name="" ID="{7E89DB62-2580-4ADC-8E3C-FA7A58333CBF}" ShortID="905140200">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Heartbeat" ID="{A7905E37-5A07-429D-9B13-F3B4C942032E}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
