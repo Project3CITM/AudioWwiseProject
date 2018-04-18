@@ -1961,8 +1961,18 @@
 						</Sound>
 						<Sound Name="Door_open_close_end" ID="{7C5B72C6-EAEF-4198-98C5-7D002EDB00B9}" ShortID="35569083">
 							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-200</Value>
+									</ValueList>
+								</Property>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -2066,6 +2076,11 @@
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
