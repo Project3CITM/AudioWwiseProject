@@ -5,16 +5,16 @@
 			<Language ID="393239870">
 				<File Name="Enemies" Hash="695883696" Timestamp="1523895283"/>
 				<File Name="Init" Hash="1419979061" Timestamp="1524061640"/>
-				<File Name="Level3" Hash="3926797203" Timestamp="1524061639"/>
+				<File Name="Level3" Hash="3817927289" Timestamp="1524062573"/>
 				<File Name="Main" Hash="2784445020" Timestamp="1523969249"/>
 				<File Name="Menu" Hash="440067167" Timestamp="1523980283"/>
 				<File Name="Scene1" Hash="1456947451" Timestamp="131634260592321274"/>
-				<File Name="VerticalSlice" Hash="4136872442" Timestamp="1524062264"/>
+				<File Name="VerticalSlice" Hash="2747611839" Timestamp="1524062574"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3482533325" Timestamp="1524062264"/>
+				<File Name="" Hash="3482533325" Timestamp="1524062574"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
