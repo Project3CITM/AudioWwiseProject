@@ -1251,8 +1251,18 @@
 					<ChildrenList>
 						<Sound Name="Boss_attack_preparation" ID="{89420B17-4C8F-4931-9CCE-8512475DB91B}" ShortID="871469526">
 							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-860</Value>
+									</ValueList>
+								</Property>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -1329,8 +1339,23 @@
 						</Sound>
 						<Sound Name="Boss_hit_ground" ID="{A129CD9E-5C41-4412-BCB4-FC55BEC29FA6}" ShortID="435951136">
 							<PropertyList>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-30</Value>
+									</ValueList>
+								</Property>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -1547,6 +1572,16 @@
 							<ChildrenList>
 								<Sound Name="Boss_hurt1" ID="{FF76288F-4259-4055-8C4E-99D78B765F15}" ShortID="1030116812">
 									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>7</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-80</Value>
+											</ValueList>
+										</Property>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
@@ -1563,6 +1598,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Boss_hurt1" ID="{A07E3F6B-4198-43B1-9C0F-7C0224512CDB}" ShortID="246088314">
+											<PropertyList>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>0.5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Boss_hurt1.wav</AudioFile>
 										</AudioFileSource>
@@ -1573,6 +1615,11 @@
 								</Sound>
 								<Sound Name="Boss_hurt2" ID="{00F158CB-9F9E-4B99-84D0-8828CA526267}" ShortID="701404384">
 									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-50</Value>
+											</ValueList>
+										</Property>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
@@ -1589,6 +1636,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Boss_hurt2" ID="{FD25781E-0455-4FBA-83F4-08FB00B9CA7D}" ShortID="254082414">
+											<PropertyList>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>0.6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Boss_hurt2.wav</AudioFile>
 										</AudioFileSource>
@@ -1599,6 +1653,11 @@
 								</Sound>
 								<Sound Name="Boss_hurt4" ID="{85E4E1C7-0685-4DB6-89E5-3E6BC17A80C2}" ShortID="826013766">
 									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-80</Value>
+											</ValueList>
+										</Property>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
@@ -1615,6 +1674,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Boss_hurt4" ID="{A7017F90-9E3D-4F48-BB33-39AC140C450A}" ShortID="628133761">
+											<PropertyList>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>0.4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Boss_hurt4.wav</AudioFile>
 										</AudioFileSource>
@@ -1625,6 +1691,11 @@
 								</Sound>
 								<Sound Name="Boss_hurt3" ID="{08EB0D12-1436-4FC9-9BA9-426604B85463}" ShortID="653064201">
 									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-100</Value>
+											</ValueList>
+										</Property>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
@@ -1641,6 +1712,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Boss_hurt3" ID="{368EBD98-B9A9-4B85-8D11-6D65BF4C8FAC}" ShortID="928489495">
+											<PropertyList>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>0.6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Boss_hurt3.wav</AudioFile>
 										</AudioFileSource>
@@ -1705,8 +1783,18 @@
 						</Sound>
 						<Sound Name="Boss_Growl" ID="{9A73E567-DDC4-4211-B695-6505FBB78188}" ShortID="277037250">
 							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-180</Value>
+									</ValueList>
+								</Property>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
