@@ -1885,6 +1885,7 @@
 						</RandomSequenceContainer>
 						<Sound Name="AmbientNoise" ID="{37AF8236-E15A-4E14-8CF2-3D6C4AD0CB9C}" ShortID="1036729129">
 							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
