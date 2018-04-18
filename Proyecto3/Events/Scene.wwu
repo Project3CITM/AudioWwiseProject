@@ -502,13 +502,13 @@
 						</Event>
 						<Event Name="CraniumCrush" ID="{B778485E-DB62-425E-9525-7578B711EC2C}">
 							<ChildrenList>
-								<Action Name="" ID="{85CA8FEF-AAD6-4CFE-BBCD-8E86DCAE69CE}" ShortID="724760573">
+								<Action Name="" ID="{31E0E861-9B51-49B5-A67D-ECD608686D33}" ShortID="369403107">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Boss_craniumcrush" ID="{5CE8CF69-2A5A-4028-936D-DC723E5075D7}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+											<ObjectRef Name="Boss_craniumcrush" ID="{5748FD8E-86FA-494C-AC55-5AA08E0A4B0F}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -516,13 +516,13 @@
 						</Event>
 						<Event Name="BossDeath" ID="{3BADC512-57A9-407A-91C0-64D06E4D7D5E}">
 							<ChildrenList>
-								<Action Name="" ID="{A3D9EC70-78C6-4782-9A8A-39920DF5A86B}" ShortID="520408758">
+								<Action Name="" ID="{0F113CA2-EE79-4A0F-9B27-974843425030}" ShortID="758446491">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Boss_death_groan" ID="{7A436371-6823-429F-BC0A-C725A9575194}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+											<ObjectRef Name="Boss_death_groan" ID="{C54DF100-4906-4882-B54A-49351C4DFAA7}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -558,13 +558,13 @@
 						</Event>
 						<Event Name="BossGrowl" ID="{232136C7-9CCD-4FA8-AE25-3345048B35DB}">
 							<ChildrenList>
-								<Action Name="" ID="{9F28E2BD-1986-498F-BB44-A83FBA49C6AF}" ShortID="763207398">
+								<Action Name="" ID="{C0082F5D-7B3B-4320-BC0E-9133B3F29CC3}" ShortID="308012758">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Boss_Growl" ID="{C679AC4E-E323-4C91-AB84-A6A8966473F8}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+											<ObjectRef Name="Boss_Growl" ID="{9A73E567-DDC4-4211-B695-6505FBB78188}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
