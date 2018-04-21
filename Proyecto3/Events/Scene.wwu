@@ -73,20 +73,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="PlayMusic" ID="{4BA87777-B333-4E0D-8CC7-3AE2C5EB49B2}">
-					<ChildrenList>
-						<Action Name="" ID="{1F05B3DF-7306-410E-B7CB-022B7B75A9BA}" ShortID="564858812">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Level2" ID="{5299395A-CCFE-48A6-9E9A-8F01E1BC4648}" WorkUnitID="{E9F376F5-69D7-4D29-81FB-07C122D11953}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="Enemies" ID="{9B33142A-C256-449C-8C50-D0C3E2D5AF61}" ShortID="252688715">
 					<ChildrenList>
 						<Event Name="Enemy1_Hurt" ID="{F0E873EC-D845-4B53-9DD9-44EB2FB22E43}">
@@ -707,6 +693,20 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="AmbientNoise" ID="{37AF8236-E15A-4E14-8CF2-3D6C4AD0CB9C}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayMusic" ID="{AB7CE7DF-28CB-4A3A-9B72-97D638F98603}">
+					<ChildrenList>
+						<Action Name="" ID="{D5CCE347-DC79-46C0-AAB7-7670C1CF8D80}" ShortID="275518904">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AmbientMusic" ID="{44585D4B-CC54-4FB1-8FC4-D375F5D3818B}" WorkUnitID="{E9F376F5-69D7-4D29-81FB-07C122D11953}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

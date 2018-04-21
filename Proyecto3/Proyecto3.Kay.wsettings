@@ -39,6 +39,7 @@
 				<Property Name="Event Action List\{98F924CF-FDFB-4C16-AA30-730EB29B4E65}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9AD64730-E094-4496-B15B-DECBBF06E5C8}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9DCC8B49-B569-4162-80FD-5D2E233AD970}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{AB7CE7DF-28CB-4A3A-9B72-97D638F98603}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B1104E6A-3125-4A36-B3CB-63006A16538F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B56ED7DB-CB5E-471B-8062-F4637D9FF833}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B7046355-D64D-4563-BFE7-896A3D2B4F69}\x64_Expand States" Type="string" Value=""/>
@@ -83,7 +84,7 @@
 				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="Ej2QWbEsBUGsPho3kBcQvA=="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="+PvZipcKUEm/fGqhQUyVBa+jDwR+FDBAk1uLh/Mfu0ZkYPFr5qJBT7y2sNHGtVFkY+MbA/blQUunXIwPrnm4kw=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="V62Zg5zn0k2rvTFSJ+SGWfj72YqXClBJv3xqoUFMlQWvow8EfhQwQJNbi4fzH7tGZGDxa+aiQU+8trDRxrVRZGPjGwP25UFLp1yMD655uJM="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="Interactive Music\x64_{1547568A-0B28-4D77-A404-0FC62849BCCB} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPzET7aWY5CdAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{39D05FB0-013C-4A80-8567-A26263C0CF6A} - SegmentEditorZoomInfo" Type="string" Value="AAAAAABAFEAAAAAAAADwPwAAAAAsVkdAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
@@ -135,7 +136,7 @@
 				<Property Name="PluginUserAcknowledge\iZotope Hybrid Reverb" Type="bool" Value="True"/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{1A85E73F-0B50-40D6-8B92-4C74814B4664}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{125EECC2-C110-4ED9-88AA-6058FD248AF7}"/>
 				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{F7E31591-DF8C-4DA8-8B5A-46001BFFCF36}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_6_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>

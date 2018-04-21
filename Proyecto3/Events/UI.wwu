@@ -59,20 +59,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="PlayBossMusic" ID="{C253FA49-476D-447A-8581-9E492A74F058}">
-					<ChildrenList>
-						<Action Name="" ID="{484A18AF-C7D6-4C50-8A5F-E99A2C6EC0C1}" ShortID="7885805">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="FinalBattleBoss" ID="{A8DFDFE2-48EA-4445-936E-4BF70E4B7467}" WorkUnitID="{E9F376F5-69D7-4D29-81FB-07C122D11953}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
