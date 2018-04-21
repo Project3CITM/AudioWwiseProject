@@ -696,6 +696,13 @@
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="FinalBattleBoss" ID="{A8DFDFE2-48EA-4445-936E-4BF70E4B7467}" ShortID="304740364">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
