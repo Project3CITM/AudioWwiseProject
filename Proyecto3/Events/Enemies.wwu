@@ -187,6 +187,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Enemy_Flesh_Hit" ID="{EC2A2512-08B5-4CF4-B4AC-0C7B1765167C}">
+							<ChildrenList>
+								<Action Name="" ID="{F2B8E0B3-CF71-48D3-9C04-01BBF7CB94E2}" ShortID="914450750">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_Flesh_Cut" ID="{C0B75D06-1F02-4946-AB58-EF4B4C4251EB}" WorkUnitID="{C7EE221D-53D3-4B33-A8B2-D1108A235045}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

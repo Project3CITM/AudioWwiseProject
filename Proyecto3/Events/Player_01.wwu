@@ -400,20 +400,6 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="DaenerysWalk" ID="{97BF7EF9-D4E5-465D-BEEC-E4C81CA12BD0}">
-									<ChildrenList>
-										<Action Name="" ID="{64306184-DBC7-403A-9C30-5B79B1B7BCCA}" ShortID="695888040">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Daennerys_Footsteps" ID="{A5074D1C-E1C6-4B8C-9C21-4239EEAE69CD}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
 								<Event Name="DaenerysFireballImpact" ID="{CB27F479-7AD9-4FA7-8F8B-AF01448339F0}">
 									<ChildrenList>
 										<Action Name="" ID="{7CE3B155-1C5F-4727-A3FD-089D3282ED38}" ShortID="193174436">
