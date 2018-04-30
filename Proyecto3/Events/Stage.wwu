@@ -17,34 +17,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="SwordSlash" ID="{2D496D9F-80F3-4BA1-9D31-C3D063B60F41}">
-					<ChildrenList>
-						<Action Name="" ID="{A14CEECD-7F35-4D17-88A3-5025C4CDA014}" ShortID="698193345">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SwordSlash" ID="{D1398C2F-6512-4B8E-9EA0-C4211D70B89E}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="SwordHit" ID="{8557E206-243C-4B21-8493-FEC7B9168A4A}">
-					<ChildrenList>
-						<Action Name="" ID="{626A6569-2E3D-4824-9CB7-9F2090C2189F}" ShortID="48050440">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Flesh_Cut" ID="{BAFBCEA8-DE74-4A4E-AC8E-41C3B3580A0B}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Footsteps" ID="{F87F9A9D-024F-4BED-B056-096003CD2DCA}">
 					<ChildrenList>
 						<Action Name="" ID="{38C6F4E8-B54B-4797-8F24-DB3A364D2C10}" ShortID="634818135">

@@ -29,7 +29,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Jaime_Hurt" ID="{A413E8AA-56AA-4423-8318-66D9C90FB2C6}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+													<ObjectRef Name="Jaime_Hurt" ID="{BE1AD1DF-66EC-4122-B8E5-A4FB51E4F4B9}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -43,7 +43,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Jaime_SwordFleshImpact" ID="{5813CB42-EF5A-4CE3-81C6-502541AB70EA}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+													<ObjectRef Name="Jaime_SwordStoneImpact" ID="{5813CB42-EF5A-4CE3-81C6-502541AB70EA}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -71,7 +71,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Jaime_SwordSwing" ID="{77D24D05-B52B-4516-96A9-07E826AB718D}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+													<ObjectRef Name="SwordSlash" ID="{D1398C2F-6512-4B8E-9EA0-C4211D70B89E}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -86,20 +86,6 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Jaime_BattleCry" ID="{804B660A-B4AB-44E3-BF2D-82FD77837593}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="JaimeImpactStone" ID="{04A89689-884B-463A-AE10-9793A17DB47E}">
-									<ChildrenList>
-										<Action Name="" ID="{C5D72EDE-0232-44F2-9EC8-3AA680943087}" ShortID="653577330">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Sword_Impact_Stone" ID="{FEEAC907-D415-470B-A557-E8158A98273D}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -187,21 +173,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Theon_Hurt" ID="{87CDF8B0-B708-4657-9165-2240047EBA1C}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="TheonTripleShot" ID="{EEDE842F-04FB-45BD-BFC2-E3DFBDD04535}">
-									<ChildrenList>
-										<Action Name="" ID="{6475DAB9-CC40-4020-9675-50CF55655B14}" ShortID="70958727">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Theon_TripleShot" ID="{93EE8BB6-6093-49D3-9EF1-3799C4550420}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+													<ObjectRef Name="Theon_Hurt" ID="{0A6C434A-83DC-4D89-B030-D04297A03FD5}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -331,7 +303,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Daennerys_Hurt" ID="{44B80E1C-CF32-42CE-96D9-17430FC63A2E}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+													<ObjectRef Name="Daenerys_Hurt" ID="{24AE8AF2-F473-447E-9443-E849F1C0BE52}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -346,17 +318,6 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Daennerys_Dracarys" ID="{99DCD723-9F89-4764-BE3C-767F37D29620}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-										<Action Name="" ID="{499FEF5F-AB43-4A28-903F-3CFEAA882089}" ShortID="290226409">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="1"/>
-												<Property Name="Delay" Type="Real64" Value="0.06"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Daennerys_DracarysReberv" ID="{5AFADCC5-408C-4D3A-85A4-3399FB5D54AE}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -385,16 +346,6 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Daennerys_FlameCrepitarLoop" ID="{6B2DE8CF-8989-4293-A0D7-DFC0025C9961}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-										<Action Name="" ID="{D9421499-855A-4FA3-9948-60A7110A7CF0}" ShortID="1002696679">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Daennerys_FlameLoop" ID="{751E1B62-E7A3-4788-ABF5-03328B2D707F}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -442,19 +393,76 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="DaenerysStopFire" ID="{40B3B94B-39B3-4053-89AE-462AB37E98A4}">
+									<ChildrenList>
+										<Action Name="" ID="{466A4339-DE7C-47D3-BCC8-F8CB9D3A0C8F}" ShortID="1045567307">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Daennerys_FlameCrepitarLoop" ID="{6B2DE8CF-8989-4293-A0D7-DFC0025C9961}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DaenerysDragonFireball" ID="{ACC595B5-49E6-4F19-A4A9-5CD458CF1677}">
+									<ChildrenList>
+										<Action Name="" ID="{1A0C4AC8-0AC4-4EE2-BC8E-1D8CFEFE81F8}" ShortID="417420383">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Daennerys_DragonRoar_Ball" ID="{63F59E37-E8D3-4EB4-BE67-E381FCB32821}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
 				</Folder>
-				<Event Name="HeartBeat" ID="{44569CB7-B772-455B-B794-DFF41651FFFC}">
+				<Event Name="SwordHit" ID="{8557E206-243C-4B21-8493-FEC7B9168A4A}">
 					<ChildrenList>
-						<Action Name="" ID="{7E89DB62-2580-4ADC-8E3C-FA7A58333CBF}" ShortID="905140200">
+						<Action Name="" ID="{626A6569-2E3D-4824-9CB7-9F2090C2189F}" ShortID="48050440">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Player_Heartbeat" ID="{A7905E37-5A07-429D-9B13-F3B4C942032E}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+									<ObjectRef Name="Flesh_Cut" ID="{BAFBCEA8-DE74-4A4E-AC8E-41C3B3580A0B}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SwordSlash" ID="{2D496D9F-80F3-4BA1-9D31-C3D063B60F41}">
+					<ChildrenList>
+						<Action Name="" ID="{A14CEECD-7F35-4D17-88A3-5025C4CDA014}" ShortID="698193345">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SwordSlash" ID="{D1398C2F-6512-4B8E-9EA0-C4211D70B89E}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayHeartbeat" ID="{C11D964E-DB30-4617-8A3D-C38AC706213B}">
+					<ChildrenList>
+						<Action Name="" ID="{2A3978C5-50F1-4AF1-9755-FCD41A6CF340}" ShortID="305434488">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Heartbeat" ID="{D46416F3-493A-457C-938D-A01005FF0573}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

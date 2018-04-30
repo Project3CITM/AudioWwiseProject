@@ -22,6 +22,13 @@
 						<State Name="Combat" ID="{3C42063F-BCE6-43E2-A9EB-2AB7CEF4F030}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="PlayerState" ID="{AC5FDB6B-DFC4-4BBC-BD5A-985591D89B14}">
+					<ChildrenList>
+						<State Name="None" ID="{ACEA43C3-757D-42D3-88F2-F350CF7A8FBF}"/>
+						<State Name="Well" ID="{A72B9CF8-E001-4B38-B258-25AA54B7DBC5}"/>
+						<State Name="Bad" ID="{4CBF81E9-9C1D-41B1-B891-86BFDF2DD326}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>
