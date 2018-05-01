@@ -11,7 +11,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Boss_Growl" ID="{9A73E567-DDC4-4211-B695-6505FBB78188}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+									<ObjectRef Name="Boss_Growl" ID="{9A73E567-DDC4-4211-B695-6505FBB78188}" WorkUnitID="{2F04D59D-040D-4F18-BB9D-05D82ACAA5FF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -25,7 +25,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Boss_punch_air" ID="{73884313-9B17-4D20-A471-DFEF68B3D511}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+									<ObjectRef Name="Boss_punch_air" ID="{73884313-9B17-4D20-A471-DFEF68B3D511}" WorkUnitID="{2F04D59D-040D-4F18-BB9D-05D82ACAA5FF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -39,7 +39,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Boss_soldier_falls" ID="{58E51311-D0C2-4972-BD9A-978E74CBCC3A}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+									<ObjectRef Name="Boss_soldier_falls" ID="{58E51311-D0C2-4972-BD9A-978E74CBCC3A}" WorkUnitID="{2F04D59D-040D-4F18-BB9D-05D82ACAA5FF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -53,7 +53,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Boss_hit_ground" ID="{A129CD9E-5C41-4412-BCB4-FC55BEC29FA6}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+									<ObjectRef Name="Boss_hit_ground" ID="{A129CD9E-5C41-4412-BCB4-FC55BEC29FA6}" WorkUnitID="{2F04D59D-040D-4F18-BB9D-05D82ACAA5FF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -67,7 +67,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Boss_soldier_scream" ID="{E5F1F675-FCBD-48C7-BFB7-C29E23BACFC3}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+									<ObjectRef Name="Boss_soldier_scream" ID="{E5F1F675-FCBD-48C7-BFB7-C29E23BACFC3}" WorkUnitID="{2F04D59D-040D-4F18-BB9D-05D82ACAA5FF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -81,7 +81,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Boss_attack_preparation" ID="{89420B17-4C8F-4931-9CCE-8512475DB91B}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+									<ObjectRef Name="Boss_attack_preparation" ID="{89420B17-4C8F-4931-9CCE-8512475DB91B}" WorkUnitID="{2F04D59D-040D-4F18-BB9D-05D82ACAA5FF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -95,7 +95,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Boss_step2" ID="{7FEED69F-B499-43A6-A142-1DD537163D06}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+									<ObjectRef Name="Boss_step2" ID="{7FEED69F-B499-43A6-A142-1DD537163D06}" WorkUnitID="{2F04D59D-040D-4F18-BB9D-05D82ACAA5FF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -109,7 +109,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Boss_falls_to_ground" ID="{2D1DAAD0-0416-40D9-B6ED-439F5F87E99D}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+									<ObjectRef Name="Boss_falls_to_ground" ID="{2D1DAAD0-0416-40D9-B6ED-439F5F87E99D}" WorkUnitID="{2F04D59D-040D-4F18-BB9D-05D82ACAA5FF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -123,7 +123,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Hurts" ID="{FE1CA127-A509-4BC2-8D97-DD32DEB609B2}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+									<ObjectRef Name="Hurts" ID="{FE1CA127-A509-4BC2-8D97-DD32DEB609B2}" WorkUnitID="{2F04D59D-040D-4F18-BB9D-05D82ACAA5FF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -137,7 +137,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Boss_death_groan" ID="{C54DF100-4906-4882-B54A-49351C4DFAA7}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+									<ObjectRef Name="Boss_death_groan" ID="{C54DF100-4906-4882-B54A-49351C4DFAA7}" WorkUnitID="{2F04D59D-040D-4F18-BB9D-05D82ACAA5FF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -151,7 +151,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Boss_step" ID="{EE4B0CFD-EADC-4B78-997A-79B96AEC77A6}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+									<ObjectRef Name="Boss_step" ID="{EE4B0CFD-EADC-4B78-997A-79B96AEC77A6}" WorkUnitID="{2F04D59D-040D-4F18-BB9D-05D82ACAA5FF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -165,7 +165,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Boss_swordswing" ID="{FD73876F-CB06-4561-8E5C-0335B34563DA}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+									<ObjectRef Name="Boss_swordswing" ID="{FD73876F-CB06-4561-8E5C-0335B34563DA}" WorkUnitID="{2F04D59D-040D-4F18-BB9D-05D82ACAA5FF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -179,7 +179,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Boss_sword_falls" ID="{EC6AF121-F1AC-4E5D-AD61-049A1E6A7E87}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+									<ObjectRef Name="Boss_sword_falls" ID="{EC6AF121-F1AC-4E5D-AD61-049A1E6A7E87}" WorkUnitID="{2F04D59D-040D-4F18-BB9D-05D82ACAA5FF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -193,7 +193,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Boss_craniumcrush" ID="{5748FD8E-86FA-494C-AC55-5AA08E0A4B0F}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+									<ObjectRef Name="Boss_craniumcrush" ID="{5748FD8E-86FA-494C-AC55-5AA08E0A4B0F}" WorkUnitID="{2F04D59D-040D-4F18-BB9D-05D82ACAA5FF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -207,7 +207,21 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Boss_falls_to_knees" ID="{905C9460-2D1D-4AC4-98F8-8E069772255F}" WorkUnitID="{67BB8896-3810-43A7-AE08-0D60CEDF99C0}"/>
+									<ObjectRef Name="Boss_falls_to_knees" ID="{905C9460-2D1D-4AC4-98F8-8E069772255F}" WorkUnitID="{2F04D59D-040D-4F18-BB9D-05D82ACAA5FF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BossFootstep" ID="{54316788-20AB-4303-B75C-1B7083E47F6F}">
+					<ChildrenList>
+						<Action Name="" ID="{83F7B63B-8953-4834-8A02-30FF9FD72151}" ShortID="959017054">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Boss_footsteps" ID="{E872A265-A8BF-4DD8-9620-A80EA293A4FE}" WorkUnitID="{2F04D59D-040D-4F18-BB9D-05D82ACAA5FF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

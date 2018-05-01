@@ -89,6 +89,7 @@
 						<ObjectRef Name="SwordFalls" ID="{DF062D21-12F0-418E-A633-C87FC209BE6F}" WorkUnitID="{AEEA15F9-4099-43A3-9D81-C6128F0F4C98}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="BossSoldierScream" ID="{98866A96-A9FD-423A-89C2-E0411DCE690E}" WorkUnitID="{AEEA15F9-4099-43A3-9D81-C6128F0F4C98}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="CraniumCrush" ID="{B778485E-DB62-425E-9525-7578B711EC2C}" WorkUnitID="{AEEA15F9-4099-43A3-9D81-C6128F0F4C98}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BossFootstep" ID="{54316788-20AB-4303-B75C-1B7083E47F6F}" WorkUnitID="{AEEA15F9-4099-43A3-9D81-C6128F0F4C98}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="BossSoldierFalls" ID="{B3C7E428-1827-46DF-99F3-1224A93FA3CD}" WorkUnitID="{AEEA15F9-4099-43A3-9D81-C6128F0F4C98}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="BossHitGround" ID="{91318F83-AEF2-47F7-B9AC-641ED013007A}" WorkUnitID="{AEEA15F9-4099-43A3-9D81-C6128F0F4C98}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="BossFalls" ID="{A6F03423-1BAB-490D-83AA-E39467D52E84}" WorkUnitID="{AEEA15F9-4099-43A3-9D81-C6128F0F4C98}" Filter="7" Origin="Manual"/>

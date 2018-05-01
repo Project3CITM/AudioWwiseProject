@@ -23,7 +23,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="None" ID="{9C7113DF-253E-4BCF-B728-A6007854367B}"/>
+						<CurrentStateRef Name="FinalBoss" ID="{7D4FC7A4-4807-4E30-862F-F6F1ABE90175}"/>
 						<CurrentStateRef Name="Bad" ID="{4CBF81E9-9C1D-41B1-B891-86BFDF2DD326}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
