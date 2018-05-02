@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="85">
-	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1525000286" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Actor-Mixer Hierarchy\Boss.wwu" DateLow="1525271345" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1525195745" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Actor-Mixer Hierarchy\Enemies.wwu" DateLow="1525111900" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Actor-Mixer Hierarchy\Player.wwu" DateLow="1525111900" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Actor-Mixer Hierarchy\Player.wwu" DateLow="1525195745" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Actor-Mixer Hierarchy\Player_01.wwu" DateLow="1524061576" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Actor-Mixer Hierarchy\Stage.wwu" DateLow="1525111900" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Actor-Mixer Hierarchy\UI.wwu" DateLow="1525000286" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Attenuations\Default Work Unit.wwu" DateLow="1525111900" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Attenuations\Default Work Unit.wwu" DateLow="1525195745" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Audio Devices\Default Work Unit.wwu" DateLow="1523098643" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Control Surface Sessions\Default Work Unit.wwu" DateLow="1523098643" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Conversion Settings\Default Work Unit.wwu" DateLow="1523098643" DateHigh="0"/>
@@ -23,7 +24,7 @@
 	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1523098643" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1523098643" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Effects\Factory McDSP Effects.wwu" DateLow="1523098643" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Events\Boss.wwu" DateLow="1525000656" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Events\Boss.wwu" DateLow="1525195745" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Events\Default Work Unit.wwu" DateLow="1525000656" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Events\Enemies.wwu" DateLow="1525001959" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Events\Player_01.wwu" DateLow="1525111900" DateHigh="0"/>
@@ -32,17 +33,17 @@
 	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Events\Stage.wwu" DateLow="1525111305" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Events\UI.wwu" DateLow="1524306651" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Game Parameters\Default Work Unit.wwu" DateLow="1523098643" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1525111900" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1525196184" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1524061547" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Mixing Sessions\Default Work Unit.wwu" DateLow="1523098643" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Modulators\Default Work Unit.wwu" DateLow="1523098643" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Presets\Default Work Unit.wwu" DateLow="1523098646" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Proyecto3.Kay.wsettings" DateLow="1525112126" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Proyecto3.Kay.wsettings" DateLow="1525196713" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Proyecto3.wproj" DateLow="1525000286" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Queries\Default Work Unit.wwu" DateLow="1523098647" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Queries\Factory Queries.wwu" DateLow="1523098647" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\SoundBanks\Default Work Unit.wwu" DateLow="1525111900" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1525111305" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\SoundBanks\Default Work Unit.wwu" DateLow="1525195745" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1525196184" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\States\Default Work Unit.wwu" DateLow="1525111305" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Switches\Default Work Unit.wwu" DateLow="1523098647" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Kay\Documents\GitHub\AudioWwiseProject\Proyecto3\Triggers\Default Work Unit.wwu" DateLow="1523098647" DateHigh="0"/>
