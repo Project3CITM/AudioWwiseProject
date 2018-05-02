@@ -79,7 +79,11 @@
 				<Sound Name="Boss_sword_falls" ID="{EC6AF121-F1AC-4E5D-AD61-049A1E6A7E87}" ShortID="1050737696">
 					<PropertyList>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
-						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -90,6 +94,9 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Corridor" ID="{9E50DD0F-A3FB-47D4-87B2-A115B5F896B4}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -109,15 +116,10 @@
 								<Value>5</Value>
 							</ValueList>
 						</Property>
-						<Property Name="Pitch" Type="int32">
-							<ValueList>
-								<Value>-830</Value>
-							</ValueList>
-						</Property>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>12</Value>
+								<Value>6</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -130,6 +132,9 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Corridor" ID="{9E50DD0F-A3FB-47D4-87B2-A115B5F896B4}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -145,10 +150,9 @@
 				<RandomSequenceContainer Name="Hurts" ID="{FE1CA127-A509-4BC2-8D97-DD32DEB609B2}" ShortID="33340941">
 					<PropertyList>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
-						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="UserAuxSendVolume0" Type="Real64">
 							<ValueList>
-								<Value>1</Value>
+								<Value>3</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Volume" Type="Real64">
@@ -377,7 +381,6 @@
 							</ValueList>
 						</Property>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
-						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>12</Value>
@@ -394,6 +397,9 @@
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
 						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Corridor" ID="{9E50DD0F-A3FB-47D4-87B2-A115B5F896B4}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Boss_soldier_scream" ID="{AF693023-623F-4D78-86A0-0F550F498FF8}" ShortID="1073014169">
@@ -408,7 +414,6 @@
 				<Sound Name="Boss_falls_to_ground" ID="{2D1DAAD0-0416-40D9-B6ED-439F5F87E99D}" ShortID="1016375365">
 					<PropertyList>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
-						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="UserAuxSendVolume0" Type="Real64">
 							<ValueList>
 								<Value>1</Value>
@@ -442,7 +447,6 @@
 				<Sound Name="Boss_falls_to_knees" ID="{905C9460-2D1D-4AC4-98F8-8E069772255F}" ShortID="430358884">
 					<PropertyList>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
-						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="UserAuxSendVolume0" Type="Real64">
 							<ValueList>
 								<Value>1</Value>
@@ -476,7 +480,6 @@
 				<Sound Name="Boss_craniumcrush" ID="{5748FD8E-86FA-494C-AC55-5AA08E0A4B0F}" ShortID="846091484">
 					<PropertyList>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
-						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -512,7 +515,6 @@
 							</ValueList>
 						</Property>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
-						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="UserAuxSendVolume0" Type="Real64">
 							<ValueList>
 								<Value>6</Value>
@@ -598,13 +600,21 @@
 						</Property>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>2</Value>
+								<Value>1</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="FootstepAttenuation" ID="{E87DB70C-2CB1-4D9C-94B6-ABC205CB545D}" WorkUnitID="{F48D92E3-3623-4302-A981-FFC426439529}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
 						</Reference>
