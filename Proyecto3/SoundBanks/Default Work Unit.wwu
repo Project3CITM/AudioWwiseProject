@@ -110,6 +110,7 @@
 						<ObjectRef Name="PlayTorch" ID="{7C720C04-3FFE-41AB-8774-A9F28051D47D}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="DoorLoop" ID="{EE81E0C7-E87D-4234-AC3B-4CFC711F3096}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PlayAmbient" ID="{2210676F-F58D-4526-8C46-10D2272D9CB7}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayChants" ID="{F663BDFF-C43E-459A-9566-045F5901F8AF}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="MetalClash" ID="{659F6B9D-D2F5-47FF-AF34-166EEDDF0843}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="BarrelSinking" ID="{F899BD9B-34AA-4989-BA86-BC7AB4B9C2AA}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Chain" ID="{B1104E6A-3125-4A36-B3CB-63006A16538F}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>

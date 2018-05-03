@@ -208,6 +208,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Daennerys_FlameCrepitarLoop" ID="{C27820D6-E6ED-43F4-B9D3-04AF4105010B}" ShortID="706131552">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.66520612178008"/>
+												<Property Name="TrimEnd" Type="Real64" Value="6.33869504143841"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Daennerys_FlameCrepitarLoop.wav</AudioFile>
 										</AudioFileSource>
@@ -241,7 +245,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="FootstepAttenuation" ID="{E87DB70C-2CB1-4D9C-94B6-ABC205CB545D}" WorkUnitID="{F48D92E3-3623-4302-A981-FFC426439529}"/>
+											<ObjectRef Name="TorchAttenuation" ID="{9FB21162-A554-4891-952C-A769A0EAAA04}" WorkUnitID="{F48D92E3-3623-4302-A981-FFC426439529}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>

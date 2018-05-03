@@ -390,6 +390,35 @@
 						<ActiveSource Name="Door_open_close_end" ID="{ABC149ED-4ED4-411B-868B-BCA2CB191A69}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Gregorian_Ambience" ID="{16BC0CED-04D7-4942-BBF2-A3F4B4F74666}" ShortID="400871242">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E94C0A3E-7A22-46FB-8CD3-3283D6F72F04}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Gregorian_Ambience" ID="{0EBE663B-081B-4039-91AB-23FE5763DDDE}" ShortID="316512089">
+							<Language>SFX</Language>
+							<AudioFile>Ambient\Gregorian_Ambience.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Gregorian_Ambience" ID="{0EBE663B-081B-4039-91AB-23FE5763DDDE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

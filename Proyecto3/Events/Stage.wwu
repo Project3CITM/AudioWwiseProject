@@ -228,6 +228,20 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="PlayChants" ID="{F663BDFF-C43E-459A-9566-045F5901F8AF}">
+					<ChildrenList>
+						<Action Name="" ID="{80B9DC61-A3CE-4557-AC2C-61ECF6A35C19}" ShortID="915756552">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gregorian_Ambience" ID="{16BC0CED-04D7-4942-BBF2-A3F4B4F74666}" WorkUnitID="{66638487-D6D3-432D-8CB6-4A40F88925B7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

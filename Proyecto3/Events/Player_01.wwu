@@ -363,16 +363,6 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
-										<Action Name="" ID="{47233FBC-A604-4443-906A-5502F91E21D5}" ShortID="416835665">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Daennerys_FlameCrepitarLoop" ID="{6B2DE8CF-8989-4293-A0D7-DFC0025C9961}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="DaenerysTired" ID="{FC92DFCB-F7C1-45A6-BA81-41F88F826FFC}">
