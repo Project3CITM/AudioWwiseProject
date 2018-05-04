@@ -4,12 +4,12 @@
 		<Banks>
 			<Language ID="393239870">
 				<File Name="Boss" Hash="1573637379" Timestamp="1525352798"/>
-				<File Name="Enemies" Hash="1124617686" Timestamp="1525355330"/>
+				<File Name="Enemies" Hash="418161338" Timestamp="1525423754"/>
 				<File Name="Init" Hash="3548395765" Timestamp="1525271796"/>
 				<File Name="Level3" Hash="3817927289" Timestamp="1524303842"/>
 				<File Name="Main" Hash="2784445020" Timestamp="1525271794"/>
 				<File Name="Menu" Hash="3535096416" Timestamp="1525271795"/>
-				<File Name="Player" Hash="1236146883" Timestamp="1525355650"/>
+				<File Name="Player" Hash="1858672387" Timestamp="1525424007"/>
 				<File Name="Puzzles" Hash="3745514104" Timestamp="1525000659"/>
 				<File Name="Scene1" Hash="1456947451" Timestamp="131634260592321274"/>
 				<File Name="Stage" Hash="3325616659" Timestamp="1525353615"/>
@@ -18,7 +18,7 @@
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1603935159" Timestamp="1525355650"/>
+				<File Name="" Hash="3604599251" Timestamp="1525424007"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
