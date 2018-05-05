@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <BankMemory>
-	<Timestamp>1525524318</Timestamp>
+	<Timestamp>1525533047</Timestamp>
 	<DataSize>4411282</DataSize>
-	<FileSize>4413973</FileSize>
+	<FileSize>4413978</FileSize>
 	<DecodedSize>4411192</DecodedSize>
 	<SFXPreFetchSize>0</SFXPreFetchSize>
 	<SFXInMemorySize>4411192</SFXInMemorySize>
