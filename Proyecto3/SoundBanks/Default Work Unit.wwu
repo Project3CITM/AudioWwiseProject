@@ -95,6 +95,7 @@
 						<ObjectRef Name="BossFalls" ID="{A6F03423-1BAB-490D-83AA-E39467D52E84}" WorkUnitID="{AEEA15F9-4099-43A3-9D81-C6128F0F4C98}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="AttackPreparation" ID="{C955EB92-3BF6-4A32-822F-7ABCA7786B9C}" WorkUnitID="{AEEA15F9-4099-43A3-9D81-C6128F0F4C98}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="BossHurt" ID="{0FEE02D8-BB5A-4A49-AA86-932823F0D773}" WorkUnitID="{AEEA15F9-4099-43A3-9D81-C6128F0F4C98}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BossIntro" ID="{D6ADB589-34EF-4D67-B70C-CC1E7EE3FE56}" WorkUnitID="{AEEA15F9-4099-43A3-9D81-C6128F0F4C98}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="BossToKnees" ID="{3F998D1B-65E1-4DA8-831C-0AF2F0F986C4}" WorkUnitID="{AEEA15F9-4099-43A3-9D81-C6128F0F4C98}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="BossWalkPhase1" ID="{FDD4CB64-1B29-4DBF-970F-357DB16C5E57}" WorkUnitID="{AEEA15F9-4099-43A3-9D81-C6128F0F4C98}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="BossWalkPhase2" ID="{6660B5D0-116C-4DDE-8E65-FEC1560F8378}" WorkUnitID="{AEEA15F9-4099-43A3-9D81-C6128F0F4C98}" Filter="7" Origin="Manual"/>
