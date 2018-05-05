@@ -20,6 +20,8 @@
 						<State Name="Level2" ID="{977EC5D0-F7F7-47A6-8E78-AB96DA99EC4B}"/>
 						<State Name="FinalBoss" ID="{7D4FC7A4-4807-4E30-862F-F6F1ABE90175}"/>
 						<State Name="Combat" ID="{3C42063F-BCE6-43E2-A9EB-2AB7CEF4F030}"/>
+						<State Name="AlternateBoss" ID="{F97F540C-E5FA-4E07-B39E-D54A7FDE9354}"/>
+						<State Name="AlternateCombat" ID="{F5F4336A-C0BE-481C-85FD-5CCB9956E84E}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="PlayerState" ID="{AC5FDB6B-DFC4-4BBC-BD5A-985591D89B14}">

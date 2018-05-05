@@ -12,13 +12,13 @@
 				<File Name="Player" Hash="1858672387" Timestamp="1525424007"/>
 				<File Name="Puzzles" Hash="3745514104" Timestamp="1525000659"/>
 				<File Name="Scene1" Hash="1456947451" Timestamp="131634260592321274"/>
-				<File Name="Stage" Hash="3325616659" Timestamp="1525353615"/>
+				<File Name="Stage" Hash="1464418697" Timestamp="1525457230"/>
 				<File Name="VerticalSlice" Hash="2796724379" Timestamp="1524417952"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3604599251" Timestamp="1525424007"/>
+				<File Name="" Hash="1942485023" Timestamp="1525457230"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

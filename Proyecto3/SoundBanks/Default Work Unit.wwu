@@ -122,6 +122,7 @@
 						<ObjectRef Name="SwitchOff" ID="{E4764F6A-AA0C-4C8E-A72C-59702967D963}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="SwitchOn" ID="{6E6310DC-78B5-4CE5-8604-DAE18D30AE9B}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="WaterSplash" ID="{36048AD5-6614-4D9A-AA63-5A2ECAF26D84}" WorkUnitID="{55D8B184-150F-4928-ACD4-AC406C02F984}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AmbientMusic" ID="{44585D4B-CC54-4FB1-8FC4-D375F5D3818B}" WorkUnitID="{E9F376F5-69D7-4D29-81FB-07C122D11953}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
