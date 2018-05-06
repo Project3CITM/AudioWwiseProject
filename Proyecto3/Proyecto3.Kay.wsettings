@@ -62,6 +62,7 @@
 				<Property Name="Event Action List\{ACC595B5-49E6-4F19-A4A9-5CD458CF1677}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{AE3E797C-E647-4CEC-AE06-098DF833F8E7}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B1104E6A-3125-4A36-B3CB-63006A16538F}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B3C7E428-1827-46DF-99F3-1224A93FA3CD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B56ED7DB-CB5E-471B-8062-F4637D9FF833}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B69EE99C-E3AF-4481-83E6-23EE7CFB6F58}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B7046355-D64D-4563-BFE7-896A3D2B4F69}\x64_Expand States" Type="string" Value=""/>
@@ -78,8 +79,10 @@
 				<Property Name="Event Action List\{CB27F479-7AD9-4FA7-8F8B-AF01448339F0}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D27AFA68-0AB8-4459-BBDD-23CC32D7E0C7}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D4E89F7F-6BCD-4B64-890B-9154060C2568}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{D6ADB589-34EF-4D67-B70C-CC1E7EE3FE56}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D96B38F6-90E2-4120-9130-43D5D1DF68DE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{DA119880-B0A5-4A32-8A2B-78A9C3F01217}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{DF062D21-12F0-418E-A633-C87FC209BE6F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E04C578F-855C-416D-B88B-6F871A723A0F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E4764F6A-AA0C-4C8E-A72C-59702967D963}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E6034C71-697A-4FC9-9249-F23618797222}\x64_Expand States" Type="string" Value=""/>

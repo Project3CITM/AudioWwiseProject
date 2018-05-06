@@ -907,11 +907,6 @@
 				</RandomSequenceContainer>
 				<Sound Name="Boss_Intro_Short" ID="{BE72C183-1E22-4DC7-A425-5953FB315256}" ShortID="718063828">
 					<PropertyList>
-						<Property Name="OutputBusVolume" Type="Real64">
-							<ValueList>
-								<Value>12</Value>
-							</ValueList>
-						</Property>
 						<Property Name="Pitch" Type="int32">
 							<ValueList>
 								<Value>50</Value>
@@ -921,11 +916,6 @@
 						<Property Name="UserAuxSendVolume0" Type="Real64">
 							<ValueList>
 								<Value>9</Value>
-							</ValueList>
-						</Property>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>12</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>

@@ -233,6 +233,9 @@
 					</CurveUsageInfoList>
 				</Attenuation>
 				<Attenuation Name="BossPresentationAttenuation" ID="{F5052722-71F9-4893-91B3-A720F0DD593B}" ShortID="970971116">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="185"/>
+					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -247,8 +250,8 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
-											<YPos>-27.90902</YPos>
+											<XPos>185</XPos>
+											<YPos>-6.7405</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>

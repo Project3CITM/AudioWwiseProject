@@ -95,9 +95,14 @@
 								</RandomSequenceContainer>
 								<Sound Name="Daennerys_Dracarys" ID="{99DCD723-9F89-4764-BE3C-767F37D29620}" ShortID="946437760">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>38</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ValueList>
-												<Value>150</Value>
+												<Value>140</Value>
 											</ValueList>
 										</Property>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
