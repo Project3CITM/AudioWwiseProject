@@ -4,7 +4,7 @@
 		<Banks>
 			<Language ID="393239870">
 				<File Name="Boss" Hash="1434770328" Timestamp="1525604616"/>
-				<File Name="Enemies" Hash="418161338" Timestamp="1525604008"/>
+				<File Name="Enemies" Hash="2393458375" Timestamp="1525620399"/>
 				<File Name="Init" Hash="3548395765" Timestamp="1525604012"/>
 				<File Name="Level3" Hash="3817927289" Timestamp="1524303842"/>
 				<File Name="Main" Hash="2784445020" Timestamp="1525604008"/>
@@ -18,7 +18,7 @@
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1422456273" Timestamp="1525604930"/>
+				<File Name="" Hash="1422456273" Timestamp="1525620400"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
