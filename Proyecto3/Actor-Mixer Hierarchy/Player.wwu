@@ -250,7 +250,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="TorchAttenuation" ID="{9FB21162-A554-4891-952C-A769A0EAAA04}" WorkUnitID="{F48D92E3-3623-4302-A981-FFC426439529}"/>
+											<ObjectRef Name="Fireball" ID="{C150AE8C-8C6C-4D63-BF86-595EAE8D7C6D}" WorkUnitID="{F48D92E3-3623-4302-A981-FFC426439529}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2EB12F03-9801-4BAE-A3CF-496449E0AF63}"/>
@@ -1439,6 +1439,11 @@
 									<PropertyList>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">

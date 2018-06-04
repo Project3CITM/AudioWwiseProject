@@ -23,7 +23,6 @@
 						<ObjectRef Name="DaenerysStopFire" ID="{40B3B94B-39B3-4053-89AE-462AB37E98A4}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="TheonRope" ID="{83E416AC-EE63-4117-BA96-7FECF4D29F3E}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="DaenerysHurt" ID="{E04C578F-855C-416D-B88B-6F871A723A0F}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Player_Heartbeat" ID="{8EDE1D7F-A454-41A4-9EE4-B4DB77387186}" WorkUnitID="{E9F376F5-69D7-4D29-81FB-07C122D11953}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="TheonMeleShout" ID="{5050CD6E-6560-4228-9E58-2B90233B8DC6}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="DaenerysFire" ID="{12C961EC-2D7B-4408-9AFB-53DE2D0FCC9D}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="JaimeFailImpact" ID="{D27AFA68-0AB8-4459-BBDD-23CC32D7E0C7}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
@@ -31,15 +30,11 @@
 						<ObjectRef Name="Daenerys_Hurt" ID="{24AE8AF2-F473-447E-9443-E849F1C0BE52}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="TheonMele" ID="{9AD64730-E094-4496-B15B-DECBBF06E5C8}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="TheonDead" ID="{BFCBEBE7-6493-4510-92AC-0353AA015830}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="HeartBeat" ID="{44569CB7-B772-455B-B794-DFF41651FFFC}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="JaimeWarCry" ID="{B7046355-D64D-4563-BFE7-896A3D2B4F69}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="TheonBreathing" ID="{FD66F3E3-4C53-4593-85DB-F14041DFCE6D}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="CrossbowShot" ID="{290BFB2B-5B63-45A6-B118-7CD58ADEDC47}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="DaenerysTired" ID="{FC92DFCB-F7C1-45A6-BA81-41F88F826FFC}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="TheonTripleShot" ID="{EEDE842F-04FB-45BD-BFC2-E3DFBDD04535}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PlayHeartbeat" ID="{C11D964E-DB30-4617-8A3D-C38AC706213B}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="JaimeImpactStone" ID="{04A89689-884B-463A-AE10-9793A17DB47E}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Daennerys_Hurt_02" ID="{BC4B47C1-4329-4667-8072-27E4132A27C8}" WorkUnitID="{2D05774C-2D1E-4C59-AFF8-A382B1A32F22}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="JaimeBlock" ID="{066A5801-5F2B-468F-9E69-C0021AFA3909}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="JaimeImpact" ID="{2BF8A197-9846-46F2-8681-44C0CD9939F5}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="TheonImpact" ID="{025078E9-25AB-46F4-ADD1-A622A0B7C187}" WorkUnitID="{E0442F62-6ECA-4A2F-9EEC-EA747817DD62}" Filter="7" Origin="Manual"/>
