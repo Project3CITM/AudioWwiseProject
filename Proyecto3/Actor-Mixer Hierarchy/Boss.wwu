@@ -5,16 +5,6 @@
 			<ChildrenList>
 				<Sound Name="Boss_hit_ground" ID="{A129CD9E-5C41-4412-BCB4-FC55BEC29FA6}" ShortID="435951136">
 					<PropertyList>
-						<Property Name="OutputBusVolume" Type="Real64">
-							<ValueList>
-								<Value>3</Value>
-							</ValueList>
-						</Property>
-						<Property Name="Pitch" Type="int32">
-							<ValueList>
-								<Value>-180</Value>
-							</ValueList>
-						</Property>
 						<Property Name="UserAuxSendVolume0" Type="Real64">
 							<ValueList>
 								<Value>8</Value>
@@ -22,7 +12,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>12</Value>
+								<Value>9</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
