@@ -241,6 +241,21 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="BossRun" ID="{2CA32097-DECB-4496-B563-09D0E19580B8}">
+					<ChildrenList>
+						<Action Name="" ID="{D849297C-F740-4686-81FC-360128EB5AE1}" ShortID="68196954">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Boss_running" ID="{53011A85-7B38-45FE-9F90-689C8CAEE5EC}" WorkUnitID="{2F04D59D-040D-4F18-BB9D-05D82ACAA5FF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BossChargeHit" ID="{FA073CB8-5288-44C7-9971-59DDCB17BBF4}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

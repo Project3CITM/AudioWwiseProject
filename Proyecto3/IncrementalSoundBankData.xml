@@ -3,22 +3,22 @@
 	<Platform GUID="{59903D12-2CB1-4105-AC3E-1A37901710BC}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Boss" Hash="481638226" Timestamp="1528130779"/>
-				<File Name="Enemies" Hash="4035989710" Timestamp="1528129854"/>
-				<File Name="Init" Hash="3548395765" Timestamp="1528025163"/>
+				<File Name="Boss" Hash="1968986348" Timestamp="1528240105"/>
+				<File Name="Enemies" Hash="277822425" Timestamp="1528240067"/>
+				<File Name="Init" Hash="3548395765" Timestamp="1528240072"/>
 				<File Name="Level3" Hash="3817927289" Timestamp="1524303842"/>
-				<File Name="Main" Hash="2784445020" Timestamp="1525604008"/>
-				<File Name="Menu" Hash="3535096416" Timestamp="1525638826"/>
-				<File Name="Player" Hash="3259137894" Timestamp="1528025243"/>
+				<File Name="Main" Hash="2784445020" Timestamp="1528240067"/>
+				<File Name="Menu" Hash="534093956" Timestamp="1528240068"/>
+				<File Name="Player" Hash="3238710057" Timestamp="1528240070"/>
 				<File Name="Puzzles" Hash="3745514104" Timestamp="1525000659"/>
 				<File Name="Scene1" Hash="1456947451" Timestamp="131634260592321274"/>
-				<File Name="Stage" Hash="488347401" Timestamp="1528130453"/>
+				<File Name="Stage" Hash="1423196143" Timestamp="1528240072"/>
 				<File Name="VerticalSlice" Hash="2796724379" Timestamp="1524417952"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1208573710" Timestamp="1528130779"/>
+				<File Name="" Hash="723688241" Timestamp="1528240105"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
